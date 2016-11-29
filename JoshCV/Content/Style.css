@@ -1,0 +1,77 @@
+﻿body {
+    
+}
+
+.padding-none {
+    padding: 0px;
+}
+
+.header-btn-2 {
+    height: 100px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.header-btn-2 p {
+    color:#ffffff;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.btn-2-glyph {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.bg-green {
+    background-color: #00ff6b;
+}
+
+.bg-purple {
+    background-color: #ae3c6d;
+}
+
+.bg-gold {
+    background-color: #f3b41d
+}
+
+.width100 {
+    width: 100%;
+}
+
+.pending {
+    background-color: #353535;
+}
+
+.bg-prim {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.bg-sec {
+    background-color: #282727;
+    color: #ffffff;
+}
+
+.bg-thir {
+    background-color: #1e1d1d;
+    color: #ffffff;
+}
+
+.header-img-pl {
+    padding: 0px;
+}
+
+.header-btn-prim {
+    text-align: center;
+    padding: 20px 0 0 0;
+    height: 70px;
+}
+
+.header-btn-glyph {
+    font-size: 24px;
+}
+
+.height-70 {
+    height: 70px;
+}
