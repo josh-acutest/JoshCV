@@ -41,6 +41,11 @@
 
 .pending {
     background-color: #353535;
+    color: #ffffff;
+}
+
+.align-center {
+    text-align: center;
 }
 
 .bg-prim {
@@ -60,6 +65,7 @@
 
 .header-img-pl {
     padding: 0px;
+    height: 240px;
 }
 
 .header-btn-prim {
@@ -74,4 +80,55 @@
 
 .height-70 {
     height: 70px;
+}
+
+.mar-t-40 {
+    margin-top: 40px;
+}
+
+.mar-t-15 {
+    margin-top: 15px;
+}
+
+.no-border {
+    border: 0px;
+}
+
+.knowledge-base {
+    margin-top: 50px;
+}
+
+.knowledge-base-glyph {
+    font-size: 44px;
+}
+
+.contact-form {
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px;
+}
+
+.form-item {
+    background-color: transparent;
+}
+
+.form-radius {
+    border-radius: 2px;
+    border: 1px solid #ffffff;
+}
+
+.form-width {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.form-msg {
+    width: 300px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:360px){
+    .form-msg {
+        width: 260px;
+    }
 }
