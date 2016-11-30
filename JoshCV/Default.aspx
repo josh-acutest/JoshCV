@@ -5,11 +5,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-4 pending header-img-pl">
-                <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=465%C3%97240&w=465&h=240" class="img-responsive" />
-                
+                <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=465%C3%97240&w=500&h=245" class="img-responsive" />
             </div>
         
-            <div class="col-md-8 col-sm-12 col-xs-12">
+            <div class="col-md-8 col-sm-12">
                 <div class="row">
                     <div class="col-xs-10 bg-prim height-70">
                         <h1>Josh Crossley</h1>
