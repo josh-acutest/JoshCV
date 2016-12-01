@@ -58,10 +58,10 @@
 
         <!-- begin CV area -->
         
-        </div>
+    </div>
 
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 knowledge-base">
                 <h1>Knowledge Base</h1>
@@ -71,34 +71,35 @@
                     <div class="col-md-1">
                         <i class="glyphicon glyphicon-cog knowledge-base-glyph"></i>
                     </div>
-                <div class="col-md-3">
-                    <h3>HTML &amp; CSS</h3>
-                    <p>Since 2014 I have studied HTML and CSS. Creating small components and mini-themes to learn the fundamentals.
-                        I practised responsive and fluid components before moving onto Bootstrap.
-                    </p>
-                </div>
 
-                <div class="col-md-1">
-                    <i class="glyphicon glyphicon-phone knowledge-base-glyph"></i>
-                </div>
-                <div class="col-md-3">
-                    <h3>Bootstrap</h3>
-                    <p>In 2016 I began studying the Twitter Bootstrap Framework. This site is being created using Bootstrap as
-                        well as the themes and components in the Portfolio section.
-                    </p>
-                </div>
+                    <div class="col-md-3">
+                        <h3>HTML &amp; CSS</h3>
+                        <p>Since 2014 I have studied HTML and CSS. Creating small components and mini-themes to learn the fundamentals.
+                            I practised responsive and fluid components before moving onto Bootstrap.
+                        </p>
+                    </div>
 
-                <div class="col-md-1">
-                    <i class="glyphicon glyphicon-globe knowledge-base-glyph"></i>
-                </div>
-                 <div class="col-md-3">
-                    <h3>Javascript</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non nunc nibh. Donec bibendum vel nunc et maximus. 
-                        Integer facilisis neque eu urna ultricies ornare. Nunc at pulvinar metus, vitae posuere tortor.
-                    </p>
+                    <div class="col-md-1">
+                        <i class="glyphicon glyphicon-phone knowledge-base-glyph"></i>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Bootstrap</h3>
+                        <p>In 2016 I began studying the Twitter Bootstrap Framework. This site is being created using Bootstrap as
+                            well as the themes and components in the Portfolio section.
+                        </p>
+                    </div>
+
+                    <div class="col-md-1">
+                        <i class="glyphicon glyphicon-globe knowledge-base-glyph"></i>
+                    </div>
+                     <div class="col-md-3">
+                        <h3>Javascript</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non nunc nibh. Donec bibendum vel nunc et maximus. 
+                            Integer facilisis neque eu urna ultricies ornare. Nunc at pulvinar metus, vitae posuere tortor.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
 
 
         </div>
@@ -139,14 +140,16 @@
                 <div class="col-md-8">
                     <div class="form-horizontal form-width">
                         <div class="form-group">
-                            <input type="text" class="form-control form-item" id="emailInput" placeholder="Your name">
+                            <asp:TextBox runat="server" type="text" class="form-control form-item" id="fullNameInput" placeholder="Your name"></asp:TextBox>
                         </div>
                          <div class="form-group">
-                            <input type="text" class="form-control form-item" id="fullNameInput" placeholder="Your email">
+                            <asp:TextBox runat="server" type="text" class="form-control form-item" id="emailInput" placeholder="Your email"></asp:TextBox>
                         </div>
                     </div>
-                    <textarea class="form-control form-item form-msg" id="messageInput" placeholder="Enter a message" rows="3"></textarea>
-                    <a href="#" class="btn btn-info mar-t-15">Submit</a>
+                    <asp:TextBox runat="server" class="form-control form-item form-msg" id="messageInput" placeholder="Enter a message" TextMode="MultiLine" rows="3"></asp:TextBox>
+                    
+                    <button runat="server" class="btn btn-info mar-t-15" id="userSubmit">Submit</button>
+                
                 </div>
                 
                 <div class="col-md-2">
