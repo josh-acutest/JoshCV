@@ -5,7 +5,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-4 pending header-img-pl">
-                <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=465%C3%97240&w=500&h=245" class="img-responsive" />
+
             </div>
         
             <div class="col-md-8 col-sm-12">
@@ -57,15 +57,105 @@
         <!-- end header section -->
 
         <!-- begin CV area -->
-
-        <div class="row">
-
-
+        
         </div>
 
 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 knowledge-base">
+                <h1>Knowledge Base</h1>
+                <h3>The skills and abilities collected</h3>
+        
+                <div class="row mar-t-40">
+                    <div class="col-md-1">
+                        <i class="glyphicon glyphicon-cog knowledge-base-glyph"></i>
+                    </div>
+                <div class="col-md-3">
+                    <h3>HTML &amp; CSS</h3>
+                    <p>Since 2014 I have studied HTML and CSS. Creating small components and mini-themes to learn the fundamentals.
+                        I practised responsive and fluid components before moving onto Bootstrap.
+                    </p>
+                </div>
+
+                <div class="col-md-1">
+                    <i class="glyphicon glyphicon-phone knowledge-base-glyph"></i>
+                </div>
+                <div class="col-md-3">
+                    <h3>Bootstrap</h3>
+                    <p>In 2016 I began studying the Twitter Bootstrap Framework. This site is being created using Bootstrap as
+                        well as the themes and components in the Portfolio section.
+                    </p>
+                </div>
+
+                <div class="col-md-1">
+                    <i class="glyphicon glyphicon-globe knowledge-base-glyph"></i>
+                </div>
+                 <div class="col-md-3">
+                    <h3>Javascript</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non nunc nibh. Donec bibendum vel nunc et maximus. 
+                        Integer facilisis neque eu urna ultricies ornare. Nunc at pulvinar metus, vitae posuere tortor.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
     </div>
 
+    <div class="container-fluid pending">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Software Collection</h3>
+                    <p>Microsoft Visual Studio</p>
+                    <p>Microsoft Office</p>
+                    <p>GIMP Image Manipulation</p>
+                    <p></p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Personal Information</h3>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <p>Name</p>
+                            <p>Age</p>
+                            <p>Location</p>
+                        </div>
+                        <div class="col-xs-6">
+                            <p>Josh Crossley</p>
+                            <p>20</p>
+                            <p>Telford</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="row contact-form">
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-8">
+                    <div class="form-horizontal form-width">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-item" id="emailInput" placeholder="Your name">
+                        </div>
+                         <div class="form-group">
+                            <input type="text" class="form-control form-item" id="fullNameInput" placeholder="Your email">
+                        </div>
+                    </div>
+                    <textarea class="form-control form-item form-msg" id="messageInput" placeholder="Enter a message" rows="3"></textarea>
+                    <a href="#" class="btn btn-info mar-t-15">Submit</a>
+                </div>
+                
+                <div class="col-md-2">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 
 </asp:Content>
