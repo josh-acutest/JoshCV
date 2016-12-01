@@ -2,8 +2,9 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
+
     <div class="container-fluid">
-        <div class="row">
+        <div class="row no-margin">
             <div class="col-sm-4 pending header-img-pl">
 
             </div>
@@ -19,7 +20,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-10 bg-sec height-70">
-                        <h3>Aspiring Web Developer</h3>
+                            <h3>Aspiring Web Developer</h3>
                     </div>
                     <div class="col-xs-2 bg-thir header-btn-prim">
                        <i class="glyphicon glyphicon-exclamation-sign header-btn-glyph"></i>
@@ -34,10 +35,10 @@
                         <i class="glyphicon glyphicon-tag btn-2-glyph"></i>
                         <p>Portfolio</p>
                     </div>
-                    <div class="col-md-2 col-xs-4 padding-none header-btn-2 bg-gold">
+                    <a href="#" data-toggle="modal" data-target="#myModal"><div class="col-md-2 col-xs-4 padding-none header-btn-2 bg-gold">
                         <i class="glyphicon glyphicon-phone btn-2-glyph"></i>
                         <p>Get in touch</p>
-                    </div>
+                    </div></a>
                     <div class="col-md-2 col-xs-4 padding-none header-btn-2 pending">
                         <p>Coming</p>
                         <p>soon</p>
@@ -61,7 +62,7 @@
     </div>
 
 
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-md-12 knowledge-base">
                 <h1>Knowledge Base</h1>
@@ -153,12 +154,65 @@
                 </div>
                 
                 <div class="col-md-2">
-
+                    
                 </div>
             </div>
 
         </div>
     </div>
+</div>
+
+
+
+
+
+
+
+
+
+    <div class="modal fade" tabindex="-1" id="myModal" role="dialog">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Send me a message</h4>
+            </div>
+            <div class="modal-body">
+            <div class="row contact-form">
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-8">
+                    <div class="form-horizontal form-width">
+                        <div class="form-group">
+                            <asp:TextBox runat="server" type="text" class="form-control form-item" id="TextBox1" placeholder="Your name"></asp:TextBox>
+                        </div>
+                         <div class="form-group">
+                            <asp:TextBox runat="server" type="text" class="form-control form-item" id="TextBox2" placeholder="Your email"></asp:TextBox>
+                        </div>
+                    </div>
+                    <asp:TextBox runat="server" class="form-control form-item form-msg" id="TextBox3" placeholder="Enter a message" TextMode="MultiLine" rows="3"></asp:TextBox>
+                    
+                    <button runat="server" class="btn btn-info mar-t-15" id="Button1">Submit</button>
+                
+            </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+   </div><!-- /.modal -->
+
+
+
+
+
+        
+
 
 
 </asp:Content>

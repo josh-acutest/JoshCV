@@ -39,9 +39,21 @@
     width: 100%;
 }
 
+.no-margin {
+    margin: 0px;
+}
+
+.minus-padding-r-15 {
+    padding-right: 0px;
+}
+
 .pending {
     background-color: #353535;
     color: #ffffff;
+}
+
+.minus-15-mar-r {
+    margin-right: 0px !important;
 }
 
 .align-center {
@@ -94,8 +106,16 @@
     border: 0px;
 }
 
+@media screen and (max-width:350px;){
+    h3 {
+        font-size: 20px;
+    }
+}
+
+
 .knowledge-base {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .knowledge-base-glyph {

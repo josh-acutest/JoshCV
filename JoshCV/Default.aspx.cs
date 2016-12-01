@@ -38,8 +38,6 @@ namespace JoshCV
             fullNameInput.Text = " ";
             messageInput.Text = " ";
 
-
-
         }
     }
 }

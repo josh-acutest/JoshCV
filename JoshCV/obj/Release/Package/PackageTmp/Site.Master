@@ -39,8 +39,8 @@
             </Scripts>
         </asp:ScriptManager>
 
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
 
     </form>
 </body>
