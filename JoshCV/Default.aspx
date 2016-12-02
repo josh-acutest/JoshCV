@@ -149,7 +149,7 @@
                     </div>
                     <asp:TextBox runat="server" class="form-control form-item form-msg" id="messageInput" placeholder="Enter a message" TextMode="MultiLine" rows="3"></asp:TextBox>
                     
-                    <button runat="server" class="btn btn-info mar-t-15" id="userSubmit">Submit</button>
+                    <asp:Button runat="server" class="btn btn-info mar-t-15" OnClick="userSubmit_Click" id="userSubmit" Text="Submit"></asp:Button>
                 
                 </div>
                 
@@ -200,8 +200,7 @@
 
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                
             </div>
         </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->

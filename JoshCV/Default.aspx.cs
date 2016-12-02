@@ -22,17 +22,24 @@ namespace JoshCV
             string CustomerName = fullNameInput.Text;
             string CustomerMessage = messageInput.Text;
 
+            
+
+            //List<string> emaillist = new List<string>();
+            //emaillist.Add("josh@jcrz.co.uk");
+            //emaillist.Add(CustomerEmail);
+
 
 
             MailMessage myMessage = new MailMessage();
             myMessage.Subject = "Message to me";
             myMessage.Body = "Thank you for your message, I will be in touch shortly." + CustomerMessage;
             myMessage.From = new MailAddress("josh@jcrz.co.uk", "JCRZ Enquiry");
-            myMessage.To.Add(new MailAddress(CustomerEmail, CustomerName));
+            myMessage.To.Add("josh@jcrz.co.uk");
+            myMessage.To.Add(CustomerEmail);
 
-            SmtpClient mySmtpClient = new SmtpClient();
-            mySmtpClient.Send(myMessage);
+            var client = new SmtpClient("217.194.212.22", 25);
 
+            client.Send(myMessage);
 
             emailInput.Text = " ";
             fullNameInput.Text = " ";
