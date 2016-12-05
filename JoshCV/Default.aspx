@@ -64,7 +64,7 @@
 
     <div class="container-fluid">
         <div class="row mar-r-0">
-            <div class="col-md-8 padding-l-50">
+            <div class="col-md-8">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -107,7 +107,7 @@
                     </div>
                 </div>
             
-            <div class="col-md-4 padding-l-5" style="background-color: #d9edf7;">
+            <div class="col-md-4" style="background-color: #d9edf7;">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -277,7 +277,7 @@
                 <div class="col-md-2">
 
                 </div>--%>
-            <%--    <div class="col-md-8">
+                <div class="col-md-8">
                     <div class="form-horizontal form-width">
                         <div class="form-group">
                             <asp:TextBox runat="server" type="text" class="form-control form-item" id="fullNameInput" placeholder="Your name"></asp:TextBox>
@@ -292,7 +292,7 @@
                 
                 </div>
                 
-            --%>    <%--<div class="col-md-2">
+                <%--<div class="col-md-2">
                     
                 </div>
             </div>

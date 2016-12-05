@@ -6,6 +6,10 @@
     padding: 0px;
 }
 
+.margin-none {
+    margin: 0px;
+}
+
 .header-btn-2 {
     height: 100px;
     text-align: center;
