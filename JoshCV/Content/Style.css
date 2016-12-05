@@ -6,8 +6,21 @@
     padding: 0px;
 }
 
+.padding-t-20 {
+    padding-top: 20px;
+}
+
 .margin-none {
     margin: 0px;
+}
+
+.mar-tb-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.header-btn {
+    height: 100px;
 }
 
 .header-btn-2 {
@@ -103,7 +116,8 @@
 .header-btn-prim {
     text-align: center;
     padding: 20px 0 0 0;
-    height: 70px;
+    height: 100px;
+    color: #ffffff;
 }
 
 .header-btn-glyph {
@@ -198,18 +212,11 @@
     border: none;
 }
 
-.table tbody > tr > th {
-    border: 0px;
+.personal-info-section {
+    font-size: 17px;
+    margin-top: 40px;
 }
 
-..table tbody > tr > td {
-    border: 0px;
-}
-
-.table {
-    border: 0px;
-}
-
-.borderless td, .borderless th {
-    border: none;
+.personal-info-panel {
+    height: 426px;
 }
