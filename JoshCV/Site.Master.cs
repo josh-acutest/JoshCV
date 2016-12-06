@@ -74,6 +74,13 @@ namespace JoshCV
 
         }
 
+        
+
+        protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)
+        {
+            Context.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
+        }
+
         public void userSubmit_Click(object sender, EventArgs e)
         {
 
@@ -109,10 +116,6 @@ namespace JoshCV
         }
 
 
-        protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)
-        {
-            Context.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
-        }
     }
 
 }
