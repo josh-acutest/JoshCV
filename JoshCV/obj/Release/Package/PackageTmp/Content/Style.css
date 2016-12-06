@@ -6,6 +6,23 @@
     padding: 0px;
 }
 
+.padding-t-20 {
+    padding-top: 20px;
+}
+
+.margin-none {
+    margin: 0px;
+}
+
+.mar-tb-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.header-btn {
+    height: 100px;
+}
+
 .header-btn-2 {
     height: 100px;
     text-align: center;
@@ -39,8 +56,24 @@
     width: 100%;
 }
 
+.mar-knowledge {
+    margin: 0px 10px 40px 10px;
+}
+
 .no-margin {
     margin: 0px;
+}
+
+.mar-l-10 {
+    margin-left: 10px;
+}
+
+.mar-b-25 {
+    margin-bottom: 25px;
+}
+
+.mar-rbl-10 {
+    margin: 0px 10px 10px 10px;
 }
 
 .minus-padding-r-15 {
@@ -83,7 +116,8 @@
 .header-btn-prim {
     text-align: center;
     padding: 20px 0 0 0;
-    height: 70px;
+    height: 100px;
+    color: #ffffff;
 }
 
 .header-btn-glyph {
@@ -103,15 +137,30 @@
 }
 
 .no-border {
-    border: 0px;
+    border: 0px !important;
 }
 
-@media screen and (max-width:350px;){
+@media screen and (max-width:350px){
     h3 {
         font-size: 20px;
     }
 }
 
+.padding-l-50 {
+    padding-left: 50px;
+}
+
+#padding-l-5 {
+    padding-right: 5px;
+}
+
+.mar-r-0 {
+    margin-right: 0px;
+}
+
+.margin-t-30 {
+    margin-top: 30px;
+}
 
 .knowledge-base {
     margin-top: 50px;
@@ -151,4 +200,23 @@
     .form-msg {
         width: 260px;
     }
+}
+
+.table-transparent {
+    background-color: transparent;
+    border: none;
+}
+
+.panel-transparent {
+    background-color: transparent;
+    border: none;
+}
+
+.personal-info-section {
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+.personal-info-panel {
+    height: 426px;
 }
