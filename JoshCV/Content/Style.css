@@ -220,3 +220,13 @@
 .personal-info-panel {
     height: 426px;
 }
+
+
+.about-container {
+    background-color: #5da8f8;
+    color: #ffffff;
+}
+
+.about-container p {
+    font-size: 16px;
+}
