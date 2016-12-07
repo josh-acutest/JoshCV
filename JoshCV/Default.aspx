@@ -60,7 +60,7 @@
                     </div>
                 </div>
             
-            <div class="col-md-4 personal-info-panel" style="background-color: #d9edf7;">
+            <div class="col-md-4 personal-info-panel">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -69,7 +69,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6 personal-info-section">
-                            Name:
+                            <b>Name:</b>
                         </div>
                         <div class="col-md-6 personal-info-section">
                             Josh
@@ -77,7 +77,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6 personal-info-section">
-                            Age:
+                            <b>Age:</b>
                         </div>
                         <div class="col-md-6 personal-info-section">
                             20
@@ -86,7 +86,7 @@
 
                     <div class="row">
                         <div class="col-md-6 personal-info-section">
-                            Location:
+                            <b>Location:</b>
                         </div>
                         <div class="col-md-6 personal-info-section">
                             Telford
@@ -95,14 +95,21 @@
 
                     <div class="row">
                         <div class="col-md-6 personal-info-section">
-                           Status: 
+                           <b>Status:</b> 
                         </div>
                         <div class="col-md-6 personal-info-section">
                             Available
                         </div>
                     </div>
 
-
+                    <div class="row">
+                        <div class="col-sm-12 personal-info-bottom">
+                            <p>Junior Web Developer aspiring to become a full stack .Net master.
+                                I have skills in HTML, CSS and Javascript. I have beginner level skills in C# and SQL.
+                            </p>
+                            <a href="/about.aspx" class="btn btn-warning">Find out more</a>
+                        </div>
+                    </div>
                             
                         </div>
                     </div>

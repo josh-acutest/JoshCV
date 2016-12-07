@@ -40,6 +40,20 @@
     font-size: 28px;
 }
 
+.btn-2-glyph-black {
+    color: #353535;
+    font-size: 28px;
+}
+
+.bg-white {
+    background-color: #ffffff;
+    color: #353535 !important;
+}
+
+.bg-blue {
+    background-color: #5da8f8;
+}
+
 .bg-green {
     background-color: #47b736;
 }
@@ -49,7 +63,7 @@
 }
 
 .bg-gold {
-    background-color: #f3b41d
+    background-color: #f0ad4e;
 }
 
 .width100 {
@@ -122,11 +136,29 @@
     text-transform: uppercase;
 }
 
+.header-btn-prim-white {
+    text-align: center;
+    padding: 20px 0 0 0;
+    height: 100px;
+    color: #353535;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 .header-btn-prim p {
     margin-top: 10px;
 }
 
 .header-btn-glyph {
+    font-size: 24px;
+}
+
+
+.header-btn-prim-white p {
+    margin-top: 10px;
+}
+
+.header-btn-glyph-black {
     font-size: 24px;
 }
 
@@ -154,10 +186,6 @@
 
 .padding-l-50 {
     padding-left: 50px;
-}
-
-#padding-l-5 {
-    padding-right: 5px;
 }
 
 .mar-r-0 {
@@ -220,11 +248,12 @@
 
 .personal-info-section {
     font-size: 17px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .personal-info-panel {
     height: 426px;
+    background-color: #d9edf7;
 }
 
 
@@ -242,4 +271,38 @@
 .status-section > .container > .row > .col-sm-6 {
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.personal-info-bottom {
+    position: absolute;
+    bottom: 25px;
+}
+
+.cv-small {
+    color: #353535;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.section-2 {
+    margin-top: 100px;
+}
+
+.font-size-30 {
+    font-size: 28px;
+}
+
+.mar-10 li {
+    margin: 10px 0;
+}
+
+.padding-t-25 {
+    padding-top: 25px;
+}
+
+.age-display{
+    color: #b5b5b5;
+    font-size: 28px;
 }

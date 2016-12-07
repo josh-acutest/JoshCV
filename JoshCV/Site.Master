@@ -51,7 +51,7 @@
                         <h1>Josh Crossley</h1>
                     </div>
                     <div class="col-xs-2 bg-sec align-center padding-t-20 height-70">
-                        <i class="glyphicon glyphicon-bullhorn header-btn-glyph"></i>
+                        <p class="age-display">20</p>
                     </div>
                 </div>
                 <div class="row">
@@ -59,12 +59,18 @@
                         <h3>Aspiring Web Developer</h3>
                     </div>
                     <div class="col-xs-2 pending align-center padding-t-20 height-70">
-                        <i class="glyphicon glyphicon-exclamation-sign header-btn-glyph"></i>
+                        <img src="Images/in_50px.png" />
                     </div>
                 </div>
                 <div class="row">
+                    <a href="Default.aspx">
+                    <div class="col-md-2 col-xs-4 bg-white header-btn-prim-white">
+                        <i class="glyphicon glyphicon-home btn-2-glyph-black"></i>
+                        <p>Home</p>
+                    </div>
+                    </a>
                     <a href="About.aspx">
-                        <div class="col-md-2 col-xs-4 bg-green header-btn-prim">
+                        <div class="col-md-2 col-xs-4 bg-blue header-btn-prim">
                             <i class="glyphicon glyphicon-user btn-2-glyph"></i>
                             <p>About me</p>
                         </div>
@@ -73,14 +79,12 @@
                         <i class="glyphicon glyphicon-tag btn-2-glyph"></i>
                         <p>Portfolio</p>
                     </div>
-                    <a href="#jmp-form"><div class="col-md-2 col-xs-4 bg-gold header-btn-prim">
+                    <a href="#jmp-form">
+                    <div class="col-md-2 col-xs-4 bg-gold header-btn-prim">
                         <i class="glyphicon glyphicon-phone btn-2-glyph"></i>
                         <p>Get in touch</p>
-                    </div></a>
-                    <div class="col-md-2 col-xs-4 pending header-btn-prim">
-                        <p>Coming</p>
-                        <p>soon</p>
                     </div>
+                    </a>
                     <div class="col-md-2 col-xs-4 pending header-btn-prim">
                         <p>Coming</p>
                         <p>soon</p>
@@ -92,10 +96,6 @@
                 </div>
             </div>
         </div>
-            
-
-
-
 
 
 
