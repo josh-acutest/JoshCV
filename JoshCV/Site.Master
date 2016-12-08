@@ -116,11 +116,11 @@
                         <div class="form-group">
                             <asp:TextBox runat="server" required="true" type="text" class="form-control form-item" id="fullNameInput" placeholder="Your name"></asp:TextBox>
                         </div>
-                            <div class="form-group">
-                            <asp:TextBox runat="server" required="true" type="text" class="form-control form-item" id="emailInput" placeholder="Your email"></asp:TextBox>
+                        <div class="form-group">
+                            <asp:TextBox runat="server" required="true" type="email" class="form-control form-item" id="emailInput" placeholder="Your email"></asp:TextBox>
                         </div>
                     </div>
-
+                    
                     <asp:TextBox runat="server" required="true" class="form-control form-item form-msg" id="messageInput" placeholder="Enter a message" TextMode="MultiLine" rows="3"></asp:TextBox>
                     <div class="align-center">
 

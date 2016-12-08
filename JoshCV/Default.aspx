@@ -25,7 +25,7 @@
                 </div>
             
 
-
+                <div class="container">
                     <div class="row margin-t-30">
                         <div class="col-md-4">
                             <div class="container">
@@ -59,7 +59,8 @@
                         </div>
                     </div>
                 </div>
-            
+            </div>
+
             <div class="col-md-4 personal-info-panel">
                 <div class="container">
                     <div class="row">
@@ -103,7 +104,7 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-sm-12 personal-info-bottom">
+                        <div class="col-sm-10 personal-info-bottom">
                             <p>Junior Web Developer aspiring to become a full stack .Net master.
                                 I have skills in HTML, CSS and Javascript. I have beginner level skills in C# and SQL.
                             </p>
@@ -121,6 +122,5 @@
         
         </div>
                 
-    <a name="jmp-form"></a>
 
 </asp:Content>

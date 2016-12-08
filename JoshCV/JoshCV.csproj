@@ -183,7 +183,10 @@
     <Content Include="Account\Web.config" />
     <None Include="Properties\PublishProfiles\Live.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="HtmlPage1.html" />
     <Content Include="Images\in_50px.png" />
+    <Content Include="ModalForm.aspx" />
+    <Content Include="ModalFormReceipt.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -370,6 +373,20 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="ModalForm.aspx.cs">
+      <DependentUpon>ModalForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModalForm.aspx.designer.cs">
+      <DependentUpon>ModalForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModalFormReceipt.aspx.cs">
+      <DependentUpon>ModalFormReceipt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModalFormReceipt.aspx.designer.cs">
+      <DependentUpon>ModalFormReceipt.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

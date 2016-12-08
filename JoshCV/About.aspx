@@ -62,7 +62,7 @@
                         </p>
                     </div>
                     <div class="section-2">
-                        <h3>Relevant Work Experience</h3>
+                        <h2>Relevant Work Experience</h2>
                         <ul class="mar-10"><li>
                             Creating responsive eshots using HTML and CSS.
                         </li>

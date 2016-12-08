@@ -109,6 +109,8 @@ namespace JoshCV
 
             client.Send(myMessage);
 
+            Response.WriteFile("ModalFormReceipt.aspx");
+
             emailInput.Text = " ";
             fullNameInput.Text = " ";
             messageInput.Text = " ";
