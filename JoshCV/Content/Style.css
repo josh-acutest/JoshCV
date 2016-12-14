@@ -59,7 +59,7 @@
 }
 
 .bg-purple {
-    background-color: #ae3c6d;
+    background-color: #C82536;
 }
 
 .bg-gold {
@@ -305,4 +305,41 @@
 .age-display{
     color: #b5b5b5;
     font-size: 28px;
+}
+
+.portfolio-title {
+    color: #ffffff;
+}
+
+.panel-portfolio > h3 {
+    margin: 0px 0px 15px 0px;
+}
+
+.panel-portfolio {
+    width:300px;
+    height:400px;
+    background-color: #b5b5b5;
+    color: #ffffff;
+    border: 1px solid #353535;
+    border-radius: 5px;
+    padding:10px;
+}
+
+.portfolio-btn {
+    padding:10px 25px;
+    background-color: #f0ad4e;
+    border: 1px solid #3459db;
+    border-radius: 5px;
+}
+
+.panel-portfolio-img-wrapper {
+    border-top: 1px solid #353535;
+    height:250px;
+    background-color: #23232f;
+    margin: 0px -10px 10px -10px;
+}
+
+.panel-portfolio-info {
+    color: #ffffff;
+
 }
