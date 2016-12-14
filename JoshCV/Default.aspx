@@ -15,48 +15,42 @@
     <div class="container-fluid">
         <div class="row margin-none">
             <div class="col-md-8">
-                <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2>Knowledge Base</h2>
-                            <h3>The skills I've learnt</h3>
+                            <div class="container">                
+                                <h2>Knowledge Base</h2>
+                                <h3>The skills I've learnt</h3>
+                            </div>
                         </div>
                     </div>
-                </div>
             
 
                 <div class="container">
                     <div class="row margin-t-30">
                         <div class="col-md-4">
-                            <div class="container">
                                 <i class="glyphicon glyphicon-cog knowledge-base-glyph"></i>
                                 <h3>HTML &amp; CSS</h3>
                                 <p>Since 2014 I have studied HTML and CSS. Creating small components and mini-themes to learn the fundamentals.
                                     I practised responsive and fluid components before moving onto Bootstrap.
                                 </p>
-                            </div>
                         </div>
 
                         <div class="col-md-4">
-                            <div class="container">
-                                <i class="glyphicon glyphicon-phone knowledge-base-glyph"></i>
+                                 <i class="glyphicon glyphicon-phone knowledge-base-glyph"></i>
                                 <h3>Bootstrap</h3>
                                 <p>In 2016 I began studying the Twitter Bootstrap Framework. This site is being created using Bootstrap as
                                     well as the themes and components in the Portfolio section.
                                 </p>
                             </div>
-                        </div>
 
 
                         <div class="col-md-4">
-                            <div class="container">
                                 <i class="glyphicon glyphicon-globe knowledge-base-glyph"></i>
                                 <h3>Javascript</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non nunc nibh. Donec bibendum vel nunc et maximus. 
                                     Integer facilisis neque eu urna ultricies ornare. Nunc at pulvinar metus, vitae posuere tortor.
                                 </p>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>

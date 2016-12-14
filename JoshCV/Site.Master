@@ -47,18 +47,18 @@
         
             <div class="col-md-8 col-sm-12">
                 <div class="row">
-                    <div class="col-xs-10 bg-prim height-70">
+                    <div class="col-sm-10 col-xs-12 bg-prim height-70 jc">
                         <h1>Josh Crossley</h1>
                     </div>
-                    <div class="col-xs-2 bg-sec align-center padding-t-20 height-70">
+                    <div class="col-sm-2 col-xs-12 bg-sec align-center padding-t-20 height-70">
                         <p class="age-display">20</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-10 bg-sec height-70">
+                    <div class="col-sm-10 col-xs-12 bg-sec height-70 jc">
                         <h3>Aspiring Web Developer</h3>
                     </div>
-                    <div class="col-xs-2 pending align-center padding-t-20 height-70">
+                    <div class="col-sm-2 col-xs-12 pending align-center padding-t-20 height-70">
                         <img src="Images/in_50px.png" />
                     </div>
                 </div>

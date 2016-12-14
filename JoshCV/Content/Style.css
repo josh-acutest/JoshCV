@@ -343,3 +343,13 @@
     color: #ffffff;
 
 }
+
+@media screen and (max-width:780px){
+    .jc {
+        text-align: center;
+        padding: 10px;
+    }
+    .personal-info-panel {
+        height: 550px;
+    }
+}
