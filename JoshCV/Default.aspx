@@ -47,8 +47,8 @@
                         <div class="col-md-4">
                                 <i class="glyphicon glyphicon-globe knowledge-base-glyph"></i>
                                 <h3>Javascript</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non nunc nibh. Donec bibendum vel nunc et maximus. 
-                                    Integer facilisis neque eu urna ultricies ornare. Nunc at pulvinar metus, vitae posuere tortor.
+                                <p>I have been practising Javascript from late 2016. My skills are at a beginner level. However,
+                                    I'm really enjoying the language and I hope to continue onto learning multiple frameworks of Js.
                                 </p>
                             </div>
                     </div>

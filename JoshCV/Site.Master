@@ -39,7 +39,7 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="container-fluid">
+    <div class="container-fluid">
         <div class="row margin-none">
             <div class="col-sm-4 pending header-img-pl">
 
@@ -58,9 +58,11 @@
                     <div class="col-sm-10 col-xs-12 bg-sec height-70 jc">
                         <h3>Aspiring Web Developer</h3>
                     </div>
-                    <div class="col-sm-2 col-xs-12 pending align-center padding-t-20 height-70">
-                        <img src="Images/in_50px.png" />
-                    </div>
+                    <a href="https://www.linkedin.com/in/josh-crossley-978352134">
+                        <div class="col-sm-2 col-xs-12 pending align-center padding-t-20 height-70">
+                            <img src="Images/in_50px.png" />
+                        </div>
+                    </a>
                 </div>
                 <div class="row">
                     <a href="Default.aspx">
@@ -76,7 +78,7 @@
                         </div>
                     </a>
                     <a href="Portfolio.aspx">
-                        <div class="col-md-2 col-xs-4 bg-purple header-btn-prim">
+                        <div class="col-md-2 col-xs-4 bg-red header-btn-prim">
                             <i class="glyphicon glyphicon-tag btn-2-glyph"></i>
                             <p>Portfolio</p>
                         </div>
@@ -113,7 +115,7 @@
 
                 </div>
                     
-                <div class="col-md-4 mar-tb-15">
+                <div class="col-md-4 mar-t-20 mar-b-15">
                     <div class="form-horizontal form-width">
                         <div class="form-group">
                             <asp:TextBox runat="server" required="true" type="text" class="form-control form-item" id="fullNameInput" placeholder="Your name"></asp:TextBox>
@@ -129,6 +131,13 @@
                         <asp:Button runat="server" class="btn btn-info mar-t-15" OnClick="userSubmit_Click" id="userSubmit" Text="Submit"></asp:Button>
                     </div>
                     <a id="jmp-form"></a>
+                    
+                    <div id="formReceipt" runat="server">
+                        <div class="alert alert-info mar-t-15">
+                            <p>Thank you for submitting a message.</p>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="col-md-4">

@@ -70,7 +70,7 @@ namespace JoshCV
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            formReceipt.Visible = false;
 
         }
 
@@ -98,7 +98,7 @@ namespace JoshCV
 
             MailMessage myMessage = new MailMessage();
             myMessage.Subject = "Message to me";
-            myMessage.Body = "Thank you for your message, I will be in touch shortly. You have submitted the following: " + CustomerMessage;
+            myMessage.Body = "Thank you for your message, I will be in touch shortly. You have submitted the following message: " + CustomerMessage + "from the following email address: " + CustomerEmail;
             myMessage.From = new MailAddress("josh@jcrz.co.uk", "JCRZ Message");
             myMessage.To.Add(CustomerEmail);
 
@@ -108,12 +108,8 @@ namespace JoshCV
             var client = new SmtpClient("217.194.212.22");
 
             client.Send(myMessage);
-
-            Response.WriteFile("ModalFormReceipt.aspx");
-
-            emailInput.Text = " ";
-            fullNameInput.Text = " ";
-            messageInput.Text = " ";
+            
+            formReceipt.Visible = true;           
 
         }
 
