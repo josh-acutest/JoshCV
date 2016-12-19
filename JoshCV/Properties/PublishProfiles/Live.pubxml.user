@@ -7,7 +7,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsmVjOe36KkuxaT6vz6HCOwAAAAACAAAAAAAQZgAAAAEAACAAAAANwKi1bMpI6tT4CeivMDIVtyWB98LZjtg/kibTP+dQhQAAAAAOgAAAAAIAACAAAAAHvjI9KYfH5jZ0qiMfnxKxgFwusAHvXKP4j/FBTBRBTyAAAAALff/Z98b7JxO4MBc/1HGRczyz39ixfaa70zyeOkF9nkAAAAAnEO9J869wt1MuHMyiuZFbFIkdQBenrfeSU4+sYKIS327bGc47NIT5I9tx5swxKViakFmAXrlA8RjqT1pvYn7U</EncryptedPassword>
-    <_PublishTargetUrl>ftp://217.194.212.22/test</_PublishTargetUrl>
+    <_PublishTargetUrl>ftp://217.194.212.22</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="About.aspx">
@@ -203,7 +203,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/01/2016 21:49:45</publishTime>
     </File>
     <File Include="Content/Style.css">
-      <publishTime>12/19/2016 22:50:12</publishTime>
+      <publishTime>12/19/2016 23:57:41</publishTime>
     </File>
     <File Include="Default.aspx">
       <publishTime>12/19/2016 22:36:21</publishTime>
@@ -242,7 +242,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/29/2016 19:40:22</publishTime>
     </File>
     <File Include="Portfolio.aspx">
-      <publishTime>12/19/2016 23:01:02</publishTime>
+      <publishTime>12/19/2016 23:55:25</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>11/29/2016 19:39:21</publishTime>
