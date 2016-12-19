@@ -39,8 +39,113 @@
             </Scripts>
         </asp:ScriptManager>
 
+    <div class="container-fluid">
+        <div class="row margin-none">
+            <div class="col-sm-4 pending header-img-pl">
+
+            </div>
+        
+            <div class="col-md-8 col-sm-12">
+                <div class="row">
+                    <div class="col-sm-10 col-xs-12 bg-prim height-70 jc">
+                        <h1>Josh Crossley</h1>
+                    </div>
+                    <div class="col-sm-2 col-xs-12 bg-sec align-center padding-t-20 height-70">
+                        <p class="age-display">20</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-10 col-xs-12 bg-sec height-70 jc">
+                        <h3>Aspiring Web Developer</h3>
+                    </div>
+                    <a href="https://www.linkedin.com/in/josh-crossley-978352134">
+                        <div class="col-sm-2 col-xs-12 pending align-center padding-t-20 height-70">
+                            <img src="Images/in_50px.png" />
+                        </div>
+                    </a>
+                </div>
+                <div class="row">
+                    <a href="Default.aspx">
+                    <div class="col-md-2 col-xs-4 bg-white header-btn-prim-white">
+                        <i class="glyphicon glyphicon-home btn-2-glyph-black"></i>
+                        <p>Home</p>
+                    </div>
+                    </a>
+                    <a href="About.aspx">
+                        <div class="col-md-2 col-xs-4 bg-blue header-btn-prim">
+                            <i class="glyphicon glyphicon-user btn-2-glyph"></i>
+                            <p>About me</p>
+                        </div>
+                    </a>
+                    <a href="Portfolio.aspx">
+                        <div class="col-md-2 col-xs-4 bg-red header-btn-prim">
+                            <i class="glyphicon glyphicon-tag btn-2-glyph"></i>
+                            <p>Portfolio</p>
+                        </div>
+                    </a>
+                    <a href="#jmp-form">
+                    <div class="col-md-2 col-xs-4 bg-gold header-btn-prim">
+                        <i class="glyphicon glyphicon-phone btn-2-glyph"></i>
+                        <p>Get in touch</p>
+                    </div>
+                    </a>
+                    <div class="col-md-2 col-xs-4 pending header-btn-prim">
+                        <p>Coming</p>
+                        <p>soon</p>
+                    </div>
+                    <div class="col-md-2 col-xs-4 pending header-btn-prim">
+                        <p>Coming</p>
+                        <p>soon</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
+
         </asp:ContentPlaceHolder>
+
+            <div class="container-fluid pending">
+            <div class="row no-margin">
+                <div class="col-md-4">
+
+                </div>
+                    
+                <div class="col-md-4 mar-t-20 mar-b-15">
+                    <div class="form-horizontal form-width">
+                        <div class="form-group">
+                            <asp:TextBox runat="server" required="true" type="text" class="form-control form-item" id="fullNameInput" placeholder="Your name"></asp:TextBox>
+                        </div>
+                        <div class="form-group">
+                            <asp:TextBox runat="server" required="true" type="email" class="form-control form-item" id="emailInput" placeholder="Your email"></asp:TextBox>
+                        </div>
+                    </div>
+                    
+                    <asp:TextBox runat="server" required="true" class="form-control form-item form-msg" id="messageInput" placeholder="Enter a message" TextMode="MultiLine" rows="3"></asp:TextBox>
+                    <div class="align-center">
+
+                        <asp:Button runat="server" class="btn btn-info mar-t-15" OnClick="userSubmit_Click" id="userSubmit" Text="Submit"></asp:Button>
+                    </div>
+                    <a id="jmp-form"></a>
+                    
+                    <div id="formReceipt" runat="server">
+                        <div class="alert alert-info mar-t-15">
+                            <p>Thank you for submitting a message.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                </div>
+                </div>
+            </div>
+
 
     </form>
 </body>
