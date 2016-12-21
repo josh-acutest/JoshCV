@@ -1,14 +1,11 @@
-﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Portfolio.aspx.cs" Inherits="JoshCV.Contact" %>
+﻿<%@ Page Title="Portfolio" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Portfolio.aspx.cs" Inherits="JoshCV.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     
-    <div class="container-fluid bg-red">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 align-center">
-                    <h1 class="portfolio-title">Portfolio</h1>
-                </div>
-            </div>
+    <div class="container-fluid padding-tb-50 bg-red color-white">
+        <div class="container">            
+            <h1>Portfolio</h1>            
+            <p>This section is used to show my portfolio and the projects I am working on.</p>
         </div>
     </div>
     
@@ -19,8 +16,8 @@
                 <div class="col-md-3">
                     <div class="panel-portfolio align-center">
                         <h3>KU Makeup</h3>
-                        <div class="panel-portfolio-img-wrapper">
-                            <p>img here</p>
+                        <div class="panel-portfolio-img-wrapper portfolio-ku">
+                            
                         </div>
                         <div class="panel-portfolio-info">
                             <p>This website was built as a small 1 page website to sharpen my skills and 

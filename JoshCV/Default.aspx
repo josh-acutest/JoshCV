@@ -1,16 +1,12 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="JoshCV._Default" %>
+﻿<%@ Page Title="Curriculum Vitae" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="JoshCV._Default" %>
+
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
-
-    
 
         <!-- end header section -->
 
         <!-- begin CV area -->
         
-    
-
 
     <div class="container-fluid">
         <div class="row margin-none">
@@ -102,7 +98,7 @@
                             <p>Junior Web Developer aspiring to become a full stack .Net master.
                                 I have skills in HTML, CSS and Javascript. I have beginner level skills in C# and SQL.
                             </p>
-                            <a href="/about.aspx" class="btn btn-warning">Find out more</a>
+                            <a href="/About.aspx" class="btn btn-warning">Find out more</a>
                         </div>
                     </div>
                             

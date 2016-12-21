@@ -11,7 +11,8 @@ namespace JoshCV
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Page.MetaKeywords = "Josh Crossley Contact";
+            Page.MetaDescription = "Josh Crossley Curriculum Vitae. Aspiring Web Developer in Telford. Find out more. ";
         }
     }
 }

@@ -2,12 +2,21 @@
     
 }
 
+.color-white {
+    color: #ffffff;
+}
+
 .padding-none {
     padding: 0px;
 }
 
 .padding-t-20 {
     padding-top: 20px;
+}
+
+.padding-tl-25 {
+   padding-top: 25px;
+   padding-left: 25px;
 }
 
 .margin-none {
@@ -129,6 +138,9 @@
 .header-img-pl {
     padding: 0px;
     height: 240px;
+    background-image: url('../Images/black-on-black-things-picjumbo-com.jpg');
+    background-size: cover;
+
 }
 
 .header-btn-prim {
@@ -265,13 +277,12 @@
 
 .personal-info-panel {
     height: 426px;
-    background-color: #d9edf7;
+    background-color: #282727;
+    color: #808080;
 }
 
 
-.about-container {
-    background-color: #5da8f8;
-    color: #ffffff;
+.padding-tb-50 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -329,18 +340,19 @@
 
 .panel-portfolio {
     width:100%;
-    height:400px;
+    height:425px;
     background-color: #353535;
     color: #ffffff;
     border: 1px solid #353535;
     border-radius: 5px;
     padding:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .panel-portolio-btn-wrapper {
-    position: absolute;
-    bottom: 20px;
-    left: 35%;
+    text-align: center;
+    margin-top: 40px;
 
 }
 
@@ -366,10 +378,17 @@
 
 .panel-portfolio-img-wrapper {
     border-top: 1px solid #353535;
-    height:200px;
-    background-color: #23232f;
+    height: 200px;
     margin: 0px -10px 10px -10px;
 }
+
+.portfolio-ku {
+    background-image: url('../Images/ku_img_2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 
 .panel-portfolio-info {
     color: #ffffff;
@@ -384,4 +403,22 @@
     .personal-info-panel {
         height: 600px;
     }
+}
+
+.section > h2 {
+    color: #353535;
+    text-decoration: underline;
+}
+
+.section > p {
+    color: #333333;
+}
+
+.quick-links li a {
+    font-size: 16px;
+    color: #808080;
+}
+
+.quick-links a:hover {
+    color: #ffffff;
 }

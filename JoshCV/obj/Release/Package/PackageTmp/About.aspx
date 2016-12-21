@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     
-    <div class="container-fluid about-container">
+    <div class="container-fluid padding-tb-50 bg-blue color-white">
         <div class="container">
             <h1>About Me</h1>
             <p>I'm currently working as a Website Administrator. Looking for a Junior Web Developer position.
@@ -11,7 +11,7 @@
         </div>
     </div>
 
-    <div class="container-fluid status-section">
+    <div class="container-fluid">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -61,7 +61,7 @@
 
                         </p>
                     </div>
-                    <div class="section-2">
+                    <div class="section">
                         <h2>Relevant Work Experience</h2>
                         <ul class="mar-10"><li>
                             Creating responsive eshots using HTML and CSS.
