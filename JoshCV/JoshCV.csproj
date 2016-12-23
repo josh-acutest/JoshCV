@@ -179,6 +179,7 @@
     <Content Include="Images\bg-test5.png" />
     <Content Include="Images\bg-test6.png" />
     <Content Include="Images\black-on-black-things-picjumbo-com.jpg" />
+    <Content Include="Images\blacksm.jpg" />
     <Content Include="Images\ku_img.png" />
     <Content Include="Images\ku_img_2.png" />
     <Content Include="Portfolio.aspx" />
