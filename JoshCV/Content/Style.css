@@ -28,6 +28,16 @@
     margin-bottom: 15px;
 }
 
+.mar-tl-25 {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.txt-grey-20 { 
+    font-size: 20px;
+    color: #808080;
+}
+
 .header-btn {
     height: 100px;
 }
@@ -246,12 +256,10 @@
 
 .form-width {
     width: 200px;
-    margin: 0 auto;
 }
 
 .form-msg {
     width: 300px;
-    margin: 0 auto;
 }
 
 @media screen and (max-width:360px){
