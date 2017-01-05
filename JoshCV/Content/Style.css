@@ -33,6 +33,11 @@
     margin-left: 25px;
 }
 
+.mar-tl-30 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
 .txt-grey-20 { 
     font-size: 20px;
     color: #808080;
@@ -70,7 +75,19 @@
 }
 
 .bg-blue {
-    background-color: #5da8f8;
+    background-color: #5da8f8 !important;
+}
+
+.bg-black {
+    background-color: #333333;
+}
+
+.bg-grey {
+    background-color: #353535 !important;
+}
+
+.border-grey {
+    border: 1px solid #353535 !important;
 }
 
 .bg-green {
@@ -78,7 +95,7 @@
 }
 
 .bg-red {
-    background-color: #C82536;
+    background-color: #C82536 !important;
 }
 
 .bg-gold {
@@ -190,6 +207,10 @@
 
 .height-70 {
     height: 70px;
+}
+
+mar-t-30 {
+    margin-top: 30px;
 }
 
 .mar-t-40 {
@@ -396,6 +417,9 @@
 
 }
 
+.jc {
+    color: #ffffff !important;
+}
 
 .panel-portfolio-info {
     color: #ffffff;
