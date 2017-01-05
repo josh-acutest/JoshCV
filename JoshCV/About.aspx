@@ -68,6 +68,21 @@
                     </div>
 
                 </div>
+
+                <div class="panel panel-primary mar-t-15 border-grey">
+                        <div class="panel-heading bg-grey">
+                            <h3>Skills</h3>
+                        </div>
+                        <div class="panel-body">
+                            <h4>Web Design and Development</h4>
+                                <p>I have learnt HTML and CSS to a good level since leaving college.
+                                I am self taught mostly, however I have picked up a lot of skills 
+                                from my time working closely with advanced developers. 
+                                I have theoretical knowledge of Javascript and I understand the 
+                                role it plays in modern web development. 
+                                Although my skills are at an early stage with the programming language.
+                                </p>
+
             </div>
 
 

@@ -133,7 +133,7 @@
                     </ul>
                 </div>
                     
-                <div class="col-md-4">
+                <div class="col-md-4 align-center">
                     <img src="Images/j_logo.png" class="mar-t-20 img-responsive" />
                 </div>
                 
@@ -156,18 +156,19 @@
                         <div class="form-group">
                             <asp:Button runat="server" class="btn btn-info" OnClick="userSubmit_Click" id="userSubmit" Text="Submit"></asp:Button>
                         </div>
+                        
                     </div>
                     
-                    
-              
-
-
-
-                        <div id="formReceipt" runat="server">
+                    <div id="formReceipt" runat="server">
                             <div class="alert alert-info mar-t-15">
                                 <p>Thank you for submitting a message.</p>
                             </div>
                         </div>
+              
+
+
+
+                       
 
 
               

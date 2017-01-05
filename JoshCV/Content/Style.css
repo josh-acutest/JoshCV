@@ -445,6 +445,10 @@ mar-t-30 {
     color: #333333;
 }
 
+.quick-links li {
+    text-decoration: none;
+}
+
 .quick-links li a {
     font-size: 16px;
     color: #808080;
