@@ -15,6 +15,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
+
                     <div class="panel panel-primary mar-t-15">
                         <div class="panel-heading bg-blue">
                             <h3>Profile</h3>
@@ -65,61 +66,29 @@
 
                         </div>
                     </div>
+
                 </div>
 
-                <div class="col-md-6">
-                    <div class="panel panel-primary mar-t-15 border-grey">
+                <div class="panel panel-primary mar-t-15 border-grey">
                         <div class="panel-heading bg-grey">
-                            <h3>Work Experience</h3>
+                            <h3>Skills</h3>
                         </div>
                         <div class="panel-body">
-                            <h4 class="mar-t-30">
-                                Web Design and Development
-                            </h4>
-                            <p>
-                                Having been self taught. My experience is shown via this website and the other project I have on my Portfolio
-                                page. I have experience writing HTML, CSS, JS and C#.
-                            </p>
-                            <h4 class="mar-t-30">
-                                Customer Service
-                            </h4>
-                            <p>
-                            I have held the role of being the first point of contact within my previous team. Often, my colleagues would 
-                            forward their phones to my phone in order for me to prioritise the requests which we receive. I also held the 
-                            responsibility of maintaining the team inbox, I helped my team by allocating tasks to the most appropriate person 
-                            in the team for each task. These roles have taught me to manage not only my own workload, but to assist my 
-                            colleagues in managing their tasks. I have also learnt to work under pressure from these roles, as I am often 
-                            required to provide quick fixes to issues that my colleagues and customers have encountered.
-                            </p>
-                            <h4 class="mar-t-30">
-                                Responsive eShots and Statistics
-                            </h4>
-                            <p>
-                            I provide monthly and weekly reports on web page statistics, detailing the sources of pageviews, 
-                            the URL's used and the type of devices used to access web pages. (Google Analytics). I also provide 
-                            monthly statistics which details the income gained from our web forms to the Service Delivery Manager 
-                            of Customer Services. The result of this has enabled me to develop good organisation skills and 
-                            managing data effectively.
-                            </p>
-                            <h4 class="mar-t-30">
-                                Project Work
-                            </h4>
-                            <p>
-                            I have a lot of experience working on projects, I am often responsible for chasing colleagues, requesting them to provide 
-                            content and multimedia items in order to complete web pages and websites. I also played a large part in the migration of our 
-                            previous council website to the new, responsive website. I also have experience managing projects, I have taken a central role 
-                            in the project of converting all current PDF forms to online web forms. This has taught me to be persistent and determined, 
-                            I have also had to use the good communication skills I have developed in order to obtain the information I require in time to 
-                            meet deadlines.
-                            </p>
-                </div>
+                            <h4>Web Design and Development</h4>
+                                <p>I have learnt HTML and CSS to a good level since leaving college.
+                                I am self taught mostly, however I have picked up a lot of skills 
+                                from my time working closely with advanced developers. 
+                                I have theoretical knowledge of Javascript and I understand the 
+                                role it plays in modern web development. 
+                                Although my skills are at an early stage with the programming language.
+                                </p>
 
             </div>
 
 
 
 
-<%--                  <div class="section padding-t-25">
+                  <div class="section padding-t-25">
                         <h2>Profile</h2>
                         <p class="cv-small">
                             Confident communicator who works well as part of a team. 
@@ -164,9 +133,8 @@
                             I am expected to offer quick solutions to issues. 
 
                         </p>
-                    </div>--%>
-
-<%--                    <div class="section">
+                    </div>
+                    <div class="section">
                         <h2>Relevant Work Experience</h2>
                         <ul class="mar-10"><li>
                             Creating responsive eshots using HTML and CSS.
@@ -198,7 +166,7 @@
                             I have also had to use the good communication skills I have developed in order to obtain the information I require in time to 
                             meet deadlines.
 
-                        </li></ul>--%>
+                        </li></ul>
                     </div>
                   <div class="section">
 

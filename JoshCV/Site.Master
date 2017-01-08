@@ -64,7 +64,7 @@
                         <h1>Josh Crossley</h1>
                     </div>
                     <div class="col-sm-2 col-xs-12 bg-grey align-center height-70">
-                        <p class="age-display">20</p>
+                        <img src="Images/j_logo.png" class="img-responsive" />
                     </div>
                 </div>
                 <div class="row">
@@ -72,7 +72,7 @@
                         <h3>Aspiring Web Developer</h3>
                     </div>
                     <a href="https://www.linkedin.com/in/josh-crossley-978352134">
-                        <div class="col-sm-2 col-xs-12 bg-sec align-center padding-t-15 height-70">
+                        <div class="col-sm-2 col-xs-12 bg-sec align-center padding-t-20 height-70">
                             <img src="Images/in_50px.png" />
                         </div>
                     </a>
@@ -122,7 +122,7 @@
 
         </asp:ContentPlaceHolder>
 
-        <div class="container-fluid pending">
+            <div class="container-fluid pending">
             <div class="row no-margin">
                 <div class="col-md-4 padding-tl-25">
                     <p class="txt-grey-20">Quick links</p>
@@ -133,8 +133,8 @@
                     </ul>
                 </div>
                     
-                <div class="col-md-4">
-                    <img src="Images/j_logo.png" class="mar-t-75 img-responsive" />
+                <div class="col-md-4 align-center">
+                    <img src="Images/j_logo.png" class="mar-t-20 img-responsive" />
                 </div>
                 
                     <a id="jmp-form"></a>
@@ -156,18 +156,19 @@
                         <div class="form-group">
                             <asp:Button runat="server" class="btn btn-info" OnClick="userSubmit_Click" id="userSubmit" Text="Submit"></asp:Button>
                         </div>
+                        
                     </div>
                     
-                    
-              
-
-
-
-                        <div id="formReceipt" runat="server">
+                    <div id="formReceipt" runat="server">
                             <div class="alert alert-info mar-t-15">
                                 <p>Thank you for submitting a message.</p>
                             </div>
                         </div>
+              
+
+
+
+                       
 
 
               
