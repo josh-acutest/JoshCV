@@ -14,6 +14,10 @@
     padding-top: 20px;
 }
 
+.padding-t-15 {
+    padding-top: 15px;
+}
+
 .padding-tl-25 {
    padding-top: 25px;
    padding-left: 25px;
@@ -217,6 +221,10 @@ mar-t-30 {
     margin-top: 40px;
 }
 
+.mar-t-75 {
+    margin-top: 75px;
+}
+
 .mar-t-20 {
     margin-top: 20px;
 }
@@ -357,6 +365,7 @@ mar-t-30 {
 .age-display{
     color: #b5b5b5;
     font-size: 28px;
+    margin-top: 15px;
 }
 
 .portfolio-title {
@@ -445,6 +454,11 @@ mar-t-30 {
     color: #333333;
 }
 
+.quick-links li {
+     margin-top:20px;
+     list-style-type: none;
+}
+
 .quick-links li a {
     font-size: 16px;
     color: #808080;
@@ -452,4 +466,8 @@ mar-t-30 {
 
 .quick-links a:hover {
     color: #ffffff;
+}
+
+#rotate360:hover {
+    transform: rotate(360deg);
 }

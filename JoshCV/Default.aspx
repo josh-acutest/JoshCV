@@ -19,12 +19,11 @@
                             </div>
                         </div>
                     </div>
-            
 
                 <div class="container">
                     <div class="row margin-t-30">
                         <div class="col-md-4">
-                                <i class="glyphicon glyphicon-cog knowledge-base-glyph"></i>
+                                <i id="rorate360" class="glyphicon glyphicon-cog knowledge-base-glyph"></i>
                                 <h3>HTML &amp; CSS</h3>
                                 <p>Since 2014 I have studied HTML and CSS. Creating small components and mini-themes to learn the fundamentals.
                                     I practised responsive and fluid components before moving onto Bootstrap.

@@ -64,7 +64,7 @@
                         <h1>Josh Crossley</h1>
                     </div>
                     <div class="col-sm-2 col-xs-12 bg-grey align-center height-70">
-                        <img src="Images/j_logo.png" class="img-responsive" />
+                        <p class="age-display">20</p>
                     </div>
                 </div>
                 <div class="row">
@@ -72,7 +72,7 @@
                         <h3>Aspiring Web Developer</h3>
                     </div>
                     <a href="https://www.linkedin.com/in/josh-crossley-978352134">
-                        <div class="col-sm-2 col-xs-12 bg-sec align-center padding-t-20 height-70">
+                        <div class="col-sm-2 col-xs-12 bg-sec align-center padding-t-15 height-70">
                             <img src="Images/in_50px.png" />
                         </div>
                     </a>
@@ -122,7 +122,7 @@
 
         </asp:ContentPlaceHolder>
 
-            <div class="container-fluid pending">
+        <div class="container-fluid pending">
             <div class="row no-margin">
                 <div class="col-md-4 padding-tl-25">
                     <p class="txt-grey-20">Quick links</p>
@@ -134,7 +134,7 @@
                 </div>
                     
                 <div class="col-md-4">
-                    <img src="Images/j_logo.png" class="mar-t-20 img-responsive" />
+                    <img src="Images/j_logo.png" class="mar-t-75 img-responsive" />
                 </div>
                 
                     <a id="jmp-form"></a>
