@@ -66,24 +66,42 @@
 
                         </div>
                     </div>
-
                 </div>
 
-                <div class="panel panel-primary mar-t-15 border-grey">
+                <div class="col-md-6">
+                    <div class="panel panel-primary mar-t-15 border-grey">
                         <div class="panel-heading bg-grey">
                             <h3>Skills</h3>
                         </div>
                         <div class="panel-body">
-                            <h4>Web Design and Development</h4>
-                                <p>I have learnt HTML and CSS to a good level since leaving college.
-                                I am self taught mostly, however I have picked up a lot of skills 
-                                from my time working closely with advanced developers. 
-                                I have theoretical knowledge of Javascript and I understand the 
-                                role it plays in modern web development. 
-                                Although my skills are at an early stage with the programming language.
-                                </p>
+                            <h4 class="mar-t-30">Web Design and Development</h4>
+                            <p>I have learnt HTML and CSS to a good level since leaving college.
+                            I am self taught mostly, however I have picked up a lot of skills 
+                            from my time working closely with advanced developers. 
+                            I have theoretical knowledge of Javascript and I understand the 
+                            role it plays in modern web development. 
+                            Although my skills are at an early stage with the programming language.
+                            </p>
+                            <h4 class="mar-t-30">Communication</h4>
+                            <p>
+                            I have provided training for a large number of colleagues of various standings within the Council. 
+                            The colleagues I have trained range from new apprentices to high level managers with large influence 
+                            within the organisation. This has enabled me to develop sharp communication skills and to adapt the way
+                            I explain and discuss various subjects to best match the person I am talking with.
+                            </p>
+                            <h4>Team Work</h4>
+                            <p>I have been central point of contact within a web team and I provided updates and feedback on most 
+                            projects we are involved in - when able. I am experienced in juggling tasks between my colleagues 
+                            and having a good understanding of the projects developing around our team.
+                            </p>
+                            <h4>Problem Solving</h4>
+                            <p>Our team receive frequent calls from colleagues who are requesting help with the use of our software.
+                            I have developed good problem solving skills from the high pressure environment that I work in. Normally 
+                            I am expected to offer quick solutions to issues.
+                            </p>
 
-            </div>
+                            </div>
+                        </div>
 
 
 

@@ -13,6 +13,11 @@ namespace JoshCV
         {
             Page.MetaKeywords = "Josh Crossley Contact";
             Page.MetaDescription = "Josh Crossley Curriculum Vitae. Aspiring Web Developer in Telford. Find out more. ";
+
+            JoshCV.app.EmailConfig myEmail = new JoshCV.app.EmailConfig();
+
+            
+
         }
     }
 }
