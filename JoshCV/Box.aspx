@@ -11,17 +11,21 @@
         <script>
 
             function btnResult() {
-
-
-                var firstName = firstNameInput.Text;
-                var surName = surnameInput.Text;
                 
-                window.alert(firstName);
-
+                var firstName = document.getElementById("firstNameInput").value;
+                var surName = document.getElementById("surnameInput").value;
+             
                 var nameResult = firstName + " " + surName;
                 document.getElementById("result").innerHTML = nameResult;
 
+                if (nameResult != "") {
+                    document.getElementById("jsbtn").className += " disabled";
+                }
             };
+
+            //Create a dropdown to enable use of Mr, Mrs, etc. and create a remember me button with functionality
+            //remember me to be bool
+            //create model
                 
         </script>
 
@@ -44,11 +48,14 @@
                         JS Input
                     </div>
                     <div class="panel-body">
-
+                        
+                        <label>First name</label>
                         <input id="firstNameInput" type="text" class="form-control" placeholder="First name" />
+                        
+                        <label>Last name</label>
                         <input id="surnameInput" type="text" class="form-control" placeholder="Surname" />
 
-                        <a class="btn btn-primary" onclick="btnResult()">Run</a>
+                        <a class="btn btn-primary mar-t-15" id="jsbtn" onclick="btnResult()">Run</a>
 
                        
                         <div class="mar-t-15">
@@ -72,7 +79,8 @@
                         <asp:label runat="server">Last name</asp:label>
                         <asp:TextBox runat="server" CssClass="form-control" ID="clastNameInput"></asp:TextBox>
                         
-                <%--        <asp:Button runat="server" CssClass="btn btn-success mar-t-15" onClick="cResult_Click" Text="Calculate" />--%>
+                        <asp:Button runat="server" CssClass="btn btn-success mar-t-15" onClick="cResult_Click" ID="cbtn" Text="Calculate" />
+                            <p class="mar-t-15">Result: <% Response.Write(FullName); %></p>
 
                         </div>
                     </div>

@@ -11,6 +11,8 @@ namespace JoshCV
 
     public partial class Box : System.Web.UI.Page
     {
+        public string FullName;
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -18,12 +20,15 @@ namespace JoshCV
 
         public void cResult_Click(object sender, EventArgs e)
         {
-
+            
             string firstName = cfirstNameInput.Text;
             string surName = clastNameInput.Text;
-            string fullName = firstName + " " + surName;
+            FullName = firstName + " " + surName;
 
-           
+            cbtn.Enabled = false;
+
+            /*  */ 
+
 
         }
 
