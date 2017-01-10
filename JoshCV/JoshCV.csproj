@@ -171,6 +171,7 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="app\Modal.aspx" />
+    <Content Include="Box.aspx" />
     <Content Include="googlef57dbc97f1c543fc.html" />
     <Content Include="Images\bg-test1.png" />
     <Content Include="Images\bg-test2.png" />
@@ -440,6 +441,13 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Box.aspx.cs">
+      <DependentUpon>Box.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Box.aspx.designer.cs">
+      <DependentUpon>Box.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Portfolio.aspx.cs">
       <DependentUpon>Portfolio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
