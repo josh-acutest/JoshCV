@@ -172,6 +172,7 @@
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="app\Modal.aspx" />
     <Content Include="Box.aspx" />
+    <Content Include="Box2.aspx" />
     <Content Include="googlef57dbc97f1c543fc.html" />
     <Content Include="Images\bg-test1.png" />
     <Content Include="Images\bg-test2.png" />
@@ -447,6 +448,13 @@
     </Compile>
     <Compile Include="Box.aspx.designer.cs">
       <DependentUpon>Box.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Box2.aspx.cs">
+      <DependentUpon>Box2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Box2.aspx.designer.cs">
+      <DependentUpon>Box2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Portfolio.aspx.cs">
       <DependentUpon>Portfolio.aspx</DependentUpon>
