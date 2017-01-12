@@ -338,6 +338,11 @@ mar-t-30 {
     bottom: 25px;
 }
 
+.blue-text {
+    font-size: 16px;
+    color: #0094ff;
+}
+
 .cv-small {
     color: #353535;
 }

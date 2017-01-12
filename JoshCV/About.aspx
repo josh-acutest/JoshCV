@@ -21,9 +21,18 @@
                             <h3>Profile</h3>
                         </div>
                         <div class="panel-body">
-                            <p>Confident communicator who works well as part of a team. 
-                            Very hardworking and self motivated individual. 
-                            Experienced in project work, both managing and contributing. 
+                            <p>
+                                Confident communicator who works well as part of a team. 
+                                Very hardworking and self motivated individual.
+                                Experienced in project work, both managing and contributing.
+                            </p>
+                            <p>
+                                Currently working as Website Administrator for Acutest. 
+                                <span class="blue-text">2015 November - Current</span>
+                            </p>
+                            <p>
+                                Previously worked as Web Applications Specialist Apprentice with Telford & Wrekin Council.
+                                <span class="blue-text">2014 - 2015 November.</span>
                             </p>
                         </div>
                     </div>
@@ -37,17 +46,18 @@
                         </div>
                         <div class="panel-body">
                             <h4>Web Design and Development</h4>
-                                <p>I have learnt HTML and CSS to a good level since leaving college.
-                                I am self taught mostly, however I have picked up a lot of skills 
+                                <p>
+                                I have learnt HTML and CSS to a good level since leaving college.
+                                I am self taught mostly, however I have picked up skills 
                                 from my time working closely with advanced developers. 
-                                I have theoretical knowledge of Javascript and I understand the 
+                                I have knowledge of Javascript and I understand the 
                                 role it plays in modern web development. 
                                 Although my skills are at an early stage with the programming language.
                                 </p>
                             <h4 class="mar-t-30">Communication</h4>
                                 <p>
-                                I have provided training for a large number of colleagues of various standings within the Council. 
-                                The colleagues I have trained range from new apprentices to high level managers with large influence 
+                                I have had to provide training for a large number of colleagues of various standings within the Telford & Wrekin Council. 
+                                The colleagues I had trained range from new apprentices to high level managers with large influence 
                                 within the organisation. This has enabled me to develop sharp communication skills and to adapt the way
                                 I explain and discuss various subjects to best match the person I am talking with.
                                 </p>
