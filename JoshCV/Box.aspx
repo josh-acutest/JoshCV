@@ -7,16 +7,59 @@
     <title></title>
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Content/Style.css" rel="stylesheet" />
+       
+    
         <script>
+      
 
-            function selectOpt() {
-              
-                var selectList = document.getElementById("optionList");
-                var selected = selectList.selectedIndex;
-                
-                document.getElementById("selectResult").innerHTML = selectList.options[selected].value;
 
+            //Creating an object for the dropdown
+
+            function titleSelect(id, title) {
+                this.id = id;
+                this.title = title;
             }
+             
+            var mr = new titleSelect(0, "Mr");
+            var mrs = new titleSelect(1, "Mrs");
+            var miss = new titleSelect(2, "Miss");
+            var dr = new titleSelect(3, "Other");
+
+            
+            var array = [mr, mrs, miss, dr];
+
+            var i = 0;
+
+            for (i = 0; i < array.length; i++){
+                0
+                1
+                2
+                3
+            }
+
+
+            //Post each variable using the for loop, 1 each time it runs
+            //use for each in c#
+            //
+            
+            dropdownItem
+
+            var dropdownItem.Mr = ["Mr", "Mrs", "Ms", ]
+
+           
+            
+
+
+            var selectList = document.getElementById("optionList");
+            selectList.onchange = selectedOp;
+             
+            function selectOpt() {
+            
+                var Str = selectList.options[slct.selectedIndex].value;
+
+                aler(Str);
+            }
+                                   
 
             function btnResult() {
                          
@@ -70,10 +113,10 @@
                         <label>Title</label>
                         
                         <select id="optionList" onchange="selectOpt()">
-                            <option id="optionMr">Mr</option>
-                            <option id="optionMrs">Mrs</option>
-                            <option id="optionMs">Ms</option>
-                            <option id="optionOther">Other</option>                            
+                            <option value="optionMr">Mr</option>
+                            <option value="optionMrs">Mrs</option>
+                            <option value="optionMs">Ms</option>
+                            <option value="optionOther">Other</option>                            
                         </select>
 
                         
