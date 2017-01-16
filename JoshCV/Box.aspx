@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Box.aspx.cs" Inherits="JoshCV.Box" %>
+﻿<%@ Page Title="Box"  Page Language="C#" AutoEventWireup="true" CodeBehind="Box.aspx.cs" Inherits="JoshCV.Box" %>
 
 <!DOCTYPE html>
 
@@ -105,8 +105,8 @@
 
           function appendList() {
 
-              for (var i = 0; i < carArrayLength; i++){
-                  alert(carArray.);
+              for (var i = 0; i < carArray; i++){
+                  alert.car.name;
               }
               }
 
