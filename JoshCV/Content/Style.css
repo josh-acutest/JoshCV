@@ -412,6 +412,22 @@ mar-t-30 {
     animation: hoverColor 2s forwards;
 }
 
+.rotate-icon {
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in;
+}
+
+.rotate-icon:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    animation: fontColor 1s forwards;
+}   
+
+@keyframes fontColor {
+    from { color: #353535; }
+    to { color: #5da8f8; }
+}
+
 @keyframes hoverColor {
     from { background-color: #808080; }
     to { background-color: #C82536;} 

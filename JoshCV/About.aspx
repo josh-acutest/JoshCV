@@ -84,28 +84,28 @@
                         </div>
                         <div class="panel-body">
                             <h4 class="mar-t-30">Customer Service</h4>
-                            <p>I have held the role of being the first point of contact within my previous team. Often, my colleagues would 
-                            forward their phones to my phone in order for me to prioritise the requests which we receive. I also held the 
-                            responsibility of maintaining the team inbox, I helped my team by allocating tasks to the most appropriate person 
-                            in the team for each task. These roles have taught me to manage not only my own workload, but to assist my 
-                            colleagues in managing their tasks. I have also learnt to work under pressure from these roles, as I am often 
-                            required to provide quick fixes to issues that my colleagues and customers have encountered.
-                            </p>
+                                <p>I have held the role of being the first point of contact within my previous team. Often, my colleagues would 
+                                forward their phones to my phone in order for me to prioritise the requests which we receive. I also held the 
+                                responsibility of maintaining the team inbox, I helped my team by allocating tasks to the most appropriate person 
+                                in the team for each task. These roles have taught me to manage not only my own workload, but to assist my 
+                                colleagues in managing their tasks. I have also learnt to work under pressure from these roles, as I am often 
+                                required to provide quick fixes to issues that my colleagues and customers have encountered.
+                                </p>
                             <h4>Statistics and Reports</h4>
-                            <p>
-                            I provide monthly and weekly reports on web page statistics, detailing the sources of pageviews, the URL's used and the 
-                            type of devices used to access web pages. (Google Analytics). I also provide monthly statistics which details the income 
-                            gained from our web forms to the Service Delivery Manager of Customer Services. The result of this has enabled me to develop 
-                            good organisation skills and managing data effectively.
-                            </p>
+                                <p>
+                                I provide monthly and weekly reports on web page statistics, detailing the sources of pageviews, the URL's used and the 
+                                type of devices used to access web pages. (Google Analytics). I also provide monthly statistics which details the income 
+                                gained from our web forms to the Service Delivery Manager of Customer Services. The result of this has enabled me to develop 
+                                good organisation skills and managing data effectively.
+                                </p>
                             <h4>Project Work</h4>
-                            <p>I have a lot of experience working on projects, I am often responsible for chasing colleagues, requesting them to provide 
-                            content and multimedia items in order to complete web pages and websites. I also played a large part in the migration of our 
-                            previous council website to the new, responsive website. I also have experience managing projects, I have taken a central role 
-                            in the project of converting all current PDF forms to online web forms. This has taught me to be persistent and determined, 
-                            I have also had to use the good communication skills I have developed in order to obtain the information I require in time to 
-                            meet deadlines.
-                            </p>
+                                <p>I have a lot of experience working on projects, I am often responsible for chasing colleagues, requesting them to provide 
+                                content and multimedia items in order to complete web pages and websites. I also played a large part in the migration of our 
+                                previous council website to the new, responsive website. I also have experience managing projects, I have taken a central role 
+                                in the project of converting all current PDF forms to online web forms. This has taught me to be persistent and determined, 
+                                I have also had to use the good communication skills I have developed in order to obtain the information I require in time to 
+                                meet deadlines.
+                                </p>
                         </div>
                     </div>
 
