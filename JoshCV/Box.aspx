@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Box"  Page Language="C#" AutoEventWireup="true" CodeBehind="Box.aspx.cs" Inherits="JoshCV.Box" %>
+﻿<%@ Page Title="Box" Language="C#" AutoEventWireup="true" CodeBehind="Box.aspx.cs" Inherits="JoshCV.Box" %>
 
 <!DOCTYPE html>
 
@@ -32,7 +32,7 @@
                         <label>Last name</label>
                         <input id="surnameInput" type="text" class="form-control" placeholder="Surname" />
 
-                        <a class="btn btn-primary mar-t-15" id="jsbtn" onclick="btnResult()">Run</a>
+                        <a class="btn btn-primary mar-t-15" id="jsbtn" onclick="appendList()">Run</a>
 
                        
                         <div class="mar-t-15">
@@ -65,10 +65,16 @@
 
                             <div class="mar-tb-25"></div>
 
-                                <a class="btn btn-danger" onclick="appendList()">Add to list</a>
+                                <a class="btn btn-danger">Add to list</a>
                             <p>List</p>
     
-                            <ul id="ulList">
+                            <h3>List Cars</h3>
+                            <ul id="listCars">
+                                <li>1</li>
+                            </ul>
+                            <hr />
+                            <h3>List Buses</h3>
+                            <ul id="listBuses">
                                 <li>1</li>
                             </ul>
                         </div>
@@ -83,30 +89,83 @@
 
 
       <script>
-      
+
+          function MyController() {
+
+              function car(name, color) {
+                  this.name = name;
+                  this.color = color;
+              }
+
+              function getCars() {
+                  var punto = new car("punto", "red");
+                  var corsa = new car("corsa", "white");
+                  var clio = new car("clio", "blue");
+                  var carArray = [punto, corsa, clio];
+
+                  return carArray;
+              }
+
+              var msg = "";
+
+              return {
+                  generateList: function appendList(carArray, listId) {
+                      for (var i = 0; i < carArray.length; i++) {
+                          var car = carArray[i];
+                          var carName = car.name;
+                          //alert(car["name"]);
+                          var list = document.getElementById(listId);
+                          var item = document.createElement("li");
+                          item.appendChild(document.createTextNode(carName + " " + car.color));
+                          list.appendChild(item);
+                      }
+                  }
+              }
+          }
+
+
 
           function car(name, color){
               this.name = name;
               this.color = color;
           }
-
           var msg = "";
-
-          var carArray = [punto, corsa, clio];
-
-          var carArrayLength = carArray.length;
-
+          
           //create objects
 
           var punto = new car("punto", "red");
           var corsa = new car("corsa", "white");
           var clio = new car("clio", "blue");
 
+          var carArray = [punto, corsa, clio];
+
+          var carArrayLength = carArray.length;
+
+          function bus(name, color, destination) {
+              this.name = name;
+              this.color = color;
+              this.destination = destination;
+          }
+
+          var busArray = new Array();
+          for (i = 0; i < 100; i++) {
+              var newbus = new bus("bus no:" + i, "color "+i, "");
+              busArray.push(newbus);
+          }
+          var mycontroller = new MyController();
+
+          mycontroller.generateList(busArray, "listBuses");
+          mycontroller.generateList(carArray, "listCars");
 
           function appendList() {
-
-              for (var i = 0; i < carArray; i++){
-                  alert.car.name;
+              for (var i = 0; i < carArray.length; i++) {
+                  var car = carArray[i];
+                  var carName = car.name;
+                  //alert(car["name"]);
+                  var list = document.getElementById("ulResult");
+                  var item = document.createElement("li");
+                  item.appendChild(document.createTextNode(carName));
+                  list.appendChild(item);
               }
               }
 
@@ -122,34 +181,34 @@
 
             //Creating an object for the dropdown
 
-            function titles(id, titleName) {
-                this.id = id;
-                this.titleName = titleName;
-            }
+            //function titles(id, titleName) {
+            //    this.id = id;
+            //    this.titleName = titleName;
+            //}
              
-            var mr = new titles(0, "Mr");
-            var mrs = new titles(1, "Mrs");
-            var miss = new titles(2, "Miss");
-            var other = new titles(3, "Other");
+            //var mr = new titles(0, "Mr");
+            //var mrs = new titles(1, "Mrs");
+            //var miss = new titles(2, "Miss");
+            //var other = new titles(3, "Other");
 
             
-            var array = [mr, mrs, miss, dr];
+            //var array = [mr, mrs, miss, other];
 
-            //Post each variable using the for loop, 1 each time it runs
-            //use for each in c#
+            ////Post each variable using the for loop, 1 each time it runs
+            ////use for each in c#
            
-            function btnResult() {
+            //function btnResult() {
                          
-                var firstName = document.getElementById("firstNameInput").value;
-                var surName = document.getElementById("surnameInput").value;
+            //    var firstName = document.getElementById("firstNameInput").value;
+            //    var surName = document.getElementById("surnameInput").value;
 
-                var nameResult = firstName + " " + surName;
-                document.getElementById("result").innerHTML = nameResult;
+            //    var nameResult = firstName + " " + surName;
+            //    document.getElementById("result").innerHTML = nameResult;
                 
-                if (nameResult != "") {
-                    document.getElementById("jsbtn").className += " disabled";
-                }
-            };
+            //    if (nameResult != "") {
+            //        document.getElementById("jsbtn").className += " disabled";
+            //    }
+            //};
 
             //var customer = {
             //    firstName: document.getElementById("firstNameInput").value,

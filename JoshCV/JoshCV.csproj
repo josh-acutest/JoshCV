@@ -185,6 +185,7 @@
     <Content Include="Images\j_logo.png" />
     <Content Include="Images\ku_img.png" />
     <Content Include="Images\ku_img_2.png" />
+    <Content Include="JSlearn.aspx" />
     <Content Include="Portfolio.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -455,6 +456,13 @@
     </Compile>
     <Compile Include="Box2.aspx.designer.cs">
       <DependentUpon>Box2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JSlearn.aspx.cs">
+      <DependentUpon>JSlearn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JSlearn.aspx.designer.cs">
+      <DependentUpon>JSlearn.aspx</DependentUpon>
     </Compile>
     <Compile Include="Portfolio.aspx.cs">
       <DependentUpon>Portfolio.aspx</DependentUpon>
