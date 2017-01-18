@@ -1,25 +1,26 @@
-﻿    function person(title, firstname, lastname, fullname, email) {
-        this.title = title;
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.fullname = fullname;
-        this.email = email;
-    };
-
-
-
-function getFirstName() {
+﻿function person(title, email) {
+    this.title = title;
+    this.firstname = function () {
         var firstName = document.getElementById("firstNameInput").value;
         return firstName;
+    }
+    this.lastname = function () {
+        var lastName = document.getElementById("lastNameInput").value;
+        return lastName;
+    }
+    this.email = email;
 };
 
-
-var user = new person("titlestring", getFirstName(), "", "", "");
+var user3 = new person("this is title", "this is email");
 
 
 function temp() {
-    alert(user.firstname);
-}
+    alert(user3);
+    console.log(user3);
+
+};
+        var user = new person("titlestring", "", "", "");
+        alert(user.firstname());
 
 
 //function generateUser() {

@@ -36,7 +36,7 @@
                         <input id="firstNameInput" type="text" class="form-control" placeholder="First name" />
                         
                         <label>Last name</label>
-                        <input id="surnameInput" type="text" class="form-control" placeholder="Surname" />
+                        <input id="lastNameInput" type="text" class="form-control" placeholder="Surname" />
 
                         <a class="btn btn-primary mar-t-15" id="jsbtn" onclick="appendList()">Run</a>
 
