@@ -25,27 +25,25 @@
                         JS Input
                     </div>
                     <div class="panel-body">
-                        <p>
-                            <a class="btn btn-info" onclick="generateDropDown()">Generate titles</a>
-                        </p>
-                        <select id="dropdownList">
+                        <p></p>
+
+                        <select id="dropdownList" onclick="generateDropDown()">
                             
                         </select>
+                        
                         <p></p>
+                        
                         <label>First name</label>
                         <input id="firstNameInput" type="text" class="form-control" placeholder="First name" />
                         
                         <label>Last name</label>
                         <input id="lastNameInput" type="text" class="form-control" placeholder="Surname" />
 
-                        <a class="btn btn-primary mar-t-15" id="jsbtn" onclick="appendList()">Run</a>
+                        <a class="btn btn-primary mar-t-15" id="jsbtn">Run</a>
 
                        
                         <div class="mar-t-15">
-                            <p id="demo"></p>
-                            <p>Result: </p>
-                            <p id="selectResult"></p> 
-                            <p id="result"></p>
+                            <p id="result">Result</p>
                         </div>
                         <div class="mar-tb-25"></div>
                         <a class="btn btn-warning" onclick="temp()">Temp</a>

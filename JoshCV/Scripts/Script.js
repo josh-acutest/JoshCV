@@ -1,5 +1,9 @@
-﻿function person(title, email) {
-    this.title = title;
+﻿function person() {
+    this.title = function () {
+        var list = document.getElementById("dropdownList");
+        var selected = list.options[list.selectedIndex].text;
+        return selected;
+    }
     this.firstname = function () {
         var firstName = document.getElementById("firstNameInput").value;
         return firstName;
@@ -8,19 +12,16 @@
         var lastName = document.getElementById("lastNameInput").value;
         return lastName;
     }
-    this.email = email;
 };
-
-var user3 = new person("this is title", "this is email");
 
 
 function temp() {
-    alert(user3);
-    console.log(user3);
+    var user = new person();
+    var content = document.getElementById("result");
 
-};
-        var user = new person("titlestring", "", "", "");
-        alert(user.firstname());
+    content.innerHTML
+
+}
 
 
 //function generateUser() {
