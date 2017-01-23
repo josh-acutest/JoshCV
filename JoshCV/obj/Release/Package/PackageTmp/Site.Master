@@ -42,38 +42,37 @@
 
         <script>
             
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-89365210-1', 'auto');
-  ga('send', 'pageview');
+              ga('create', 'UA-89365210-1', 'auto');
+              ga('send', 'pageview');
 
-</script>
         </script>
 
     <div class="container-fluid">
-        <div class="row margin-none">
+         <div class="row margin-none">
             <div class="col-md-4 col-sm-12 pending header-img-pl">
 
             </div>
         
             <div class="col-md-8 col-sm-12">
                 <div class="row">
-                    <div class="col-sm-10 col-xs-12 bg-prim height-70 jc">
+                    <div class="col-sm-10 col-xs-12 bg-sec height-70 jc">
                         <h1>Josh Crossley</h1>
                     </div>
-                    <div class="col-sm-2 col-xs-12 bg-sec align-center padding-t-20 height-70">
-                        <p class="age-display">20</p>
+                    <div class="col-sm-2 col-xs-12 bg-grey align-center height-70 padding-t-15">
+                       <p class="age-display">21</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-10 col-xs-12 bg-sec height-70 jc">
+                    <div class="col-sm-10 col-xs-12 bg-grey height-70 jc">
                         <h3>Aspiring Web Developer</h3>
                     </div>
                     <a href="https://www.linkedin.com/in/josh-crossley-978352134">
-                        <div class="col-sm-2 col-xs-12 pending align-center padding-t-20 height-70">
+                        <div class="col-sm-2 col-xs-12 bg-sec align-center padding-t-15 height-70">
                             <img src="Images/in_50px.png" />
                         </div>
                     </a>
@@ -114,7 +113,7 @@
                 </div>
             </div>
         </div>
-
+    </div>
 
 
 
@@ -124,45 +123,57 @@
         </asp:ContentPlaceHolder>
 
             <div class="container-fluid pending">
-            <div class="row no-margin">
-                <div class="col-md-4 padding-tl-25">
-                    <ul class="quick-links">
-                        <li><a href="/Default.aspx">Home</a></li>
-                        <li><a href="/About.aspx">About</a></li>
-                        <li><a href="/Portfolio.aspx">Portfolio</a></li>
-                    </ul>
-                </div>
+                <div class="row no-margin">
+                    <div class="col-md-4 padding-tl-25">
+                        <p class="txt-grey-20">Quick links</p>
+                        <ul class="quick-links">
+                            <li><i class="glyphicon glyphicon-home mar-r-10"></i><a href="/Default.aspx">Home</a></li>
+                            <li><i class="glyphicon glyphicon-user mar-r-10"></i><a href="/About.aspx">About</a></li>
+                            <li><i class="glyphicon glyphicon-tag mar-r-10"></i><a href="/Portfolio.aspx">Portfolio</a></li>
+                        </ul>
+                    </div>
                     
-                <div class="col-md-4 mar-t-20 mar-b-15">
-                    <div class="form-horizontal form-width">
+                <div class="col-md-4 align-center">
+                    <img src="Images/j_logo.png" class="mar-t-20 img-responsive" />
+                </div>
+                
+                    <a id="jmp-form"></a>
+                    
+                    
+                
+
+                <div class="col-md-4 mar-b-15">
+                    <div class="form-horizontal form-width mar-tl-30">
                         <div class="form-group">
                             <asp:TextBox runat="server" required="true" type="text" class="form-control form-item" id="fullNameInput" placeholder="Your name"></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <asp:TextBox runat="server" required="true" type="email" class="form-control form-item" id="emailInput" placeholder="Your email"></asp:TextBox>
                         </div>
+                        <div class="form-group">
+                            <asp:TextBox runat="server" required="true" class="form-control form-item form-msg" id="messageInput" placeholder="Enter a message" TextMode="MultiLine" rows="3"></asp:TextBox>
+                        </div>
+                        <div class="form-group">
+                            <asp:Button runat="server" class="btn btn-info" OnClick="userSubmit_Click" id="userSubmit" Text="Submit"></asp:Button>
+                        </div>
+                        
                     </div>
-                    
-                    <asp:TextBox runat="server" required="true" class="form-control form-item form-msg" id="messageInput" placeholder="Enter a message" TextMode="MultiLine" rows="3"></asp:TextBox>
-                    <div class="align-center">
-
-                        <asp:Button runat="server" class="btn btn-info mar-t-15" OnClick="userSubmit_Click" id="userSubmit" Text="Submit"></asp:Button>
-                    </div>
-                    <a id="jmp-form"></a>
                     
                     <div id="formReceipt" runat="server">
-                        <div class="alert alert-info mar-t-15">
-                            <p>Thank you for submitting a message.</p>
-                        </div>
+                            <div class="alert alert-info mar-t-15">
+                                <p>Thank you for submitting a message.</p>
+                            </div>
                     </div>
-
                 </div>
 
-                <div class="col-md-4">
 
-                </div>
-                </div>
+
+                       
+
+
+              
             </div>
+        </div>
 
 
     </form>

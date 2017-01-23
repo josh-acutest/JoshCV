@@ -77,6 +77,29 @@
 
                 </div>
             </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        To Do List - JS
+                    </div>
+                    <div class="panel-body">
+                        
+                        <label>Task Title</label>
+                        <input class="form-control" type="text" id="taskInput" placeholder="Insert Task Title" />
+
+                        <a class="btn btn-primary mar-t-20">Add to list</a>
+
+                    </div>
+                    <div class="panel-footer">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <script src="Scripts/Script.js"></script>
         </form>
 </body>

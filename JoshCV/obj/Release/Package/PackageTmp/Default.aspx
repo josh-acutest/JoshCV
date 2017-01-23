@@ -19,12 +19,11 @@
                             </div>
                         </div>
                     </div>
-            
 
                 <div class="container">
                     <div class="row margin-t-30">
                         <div class="col-md-4">
-                                <i class="glyphicon glyphicon-cog knowledge-base-glyph"></i>
+                                <i class="glyphicon glyphicon-cog knowledge-base-glyph rotate-icon"></i>
                                 <h3>HTML &amp; CSS</h3>
                                 <p>Since 2014 I have studied HTML and CSS. Creating small components and mini-themes to learn the fundamentals.
                                     I practised responsive and fluid components before moving onto Bootstrap.
@@ -32,7 +31,7 @@
                         </div>
 
                         <div class="col-md-4">
-                                 <i class="glyphicon glyphicon-phone knowledge-base-glyph"></i>
+                                 <i class="glyphicon glyphicon-phone knowledge-base-glyph rotate-icon"></i>
                                 <h3>Bootstrap</h3>
                                 <p>In 2016 I began studying the Twitter Bootstrap Framework. This site is being created using Bootstrap as
                                     well as the themes and components in the Portfolio section.
@@ -41,7 +40,7 @@
 
 
                         <div class="col-md-4">
-                                <i class="glyphicon glyphicon-globe knowledge-base-glyph"></i>
+                                <i class="glyphicon glyphicon-globe knowledge-base-glyph rotate-icon"></i>
                                 <h3>Javascript</h3>
                                 <p>I have been practising Javascript from late 2016. My skills are at a beginner level. However,
                                     I'm really enjoying the language and I hope to continue onto learning multiple frameworks of Js.
@@ -71,7 +70,7 @@
                             <b>Age:</b>
                         </div>
                         <div class="col-md-6 personal-info-section">
-                            20
+                            21
                         </div>
                     </div>
 

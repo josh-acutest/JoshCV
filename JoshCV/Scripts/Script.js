@@ -19,8 +19,6 @@ function temp() {
     var user = new person();
     var content = document.getElementById("result");
 
-    content.innerHTML
-
 }
 
 

@@ -14,6 +14,10 @@
     padding-top: 20px;
 }
 
+.padding-t-15 {
+    padding-top: 15px;
+}
+
 .padding-tl-25 {
    padding-top: 25px;
    padding-left: 25px;
@@ -26,6 +30,34 @@
 .mar-tb-15 {
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.mar-tb-25 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.mar-b-25 {
+    margin-bottom: 25px;
+}
+
+.mar-tl-25 {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.mar-tl-30 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.mar-r-10 {
+    margin-right: 10px;
+}
+
+.txt-grey-20 { 
+    font-size: 20px;
+    color: #808080;
 }
 
 .header-btn {
@@ -60,7 +92,19 @@
 }
 
 .bg-blue {
-    background-color: #5da8f8;
+    background-color: #5da8f8 !important;
+}
+
+.bg-black {
+    background-color: #333333;
+}
+
+.bg-grey {
+    background-color: #353535 !important;
+}
+
+.border-grey {
+    border: 1px solid #353535 !important;
 }
 
 .bg-green {
@@ -68,7 +112,7 @@
 }
 
 .bg-red {
-    background-color: #C82536;
+    background-color: #C82536 !important;
 }
 
 .bg-gold {
@@ -138,7 +182,7 @@
 .header-img-pl {
     padding: 0px;
     height: 240px;
-    background-image: url('../Images/black-on-black-things-picjumbo-com.jpg');
+    background-image: url('../Images/blacksm.jpg');
     background-size: cover;
 
 }
@@ -180,6 +224,10 @@
 
 .height-70 {
     height: 70px;
+}
+
+mar-t-30 {
+    margin-top: 30px;
 }
 
 .mar-t-40 {
@@ -246,12 +294,10 @@
 
 .form-width {
     width: 200px;
-    margin: 0 auto;
 }
 
 .form-msg {
     width: 300px;
-    margin: 0 auto;
 }
 
 @media screen and (max-width:360px){
@@ -299,6 +345,11 @@
 .personal-info-bottom {
     position: absolute;
     bottom: 25px;
+}
+
+.blue-text {
+    font-size: 16px;
+    color: #0094ff;
 }
 
 .cv-small {
@@ -370,6 +421,22 @@
     animation: hoverColor 2s forwards;
 }
 
+.rotate-icon {
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in;
+}
+
+.rotate-icon:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    animation: fontColor 1s forwards;
+}   
+
+@keyframes fontColor {
+    from { color: #353535; }
+    to { color: #5da8f8; }
+}
+
 @keyframes hoverColor {
     from { background-color: #808080; }
     to { background-color: #C82536;} 
@@ -388,6 +455,9 @@
 
 }
 
+.jc {
+    color: #ffffff !important;
+}
 
 .panel-portfolio-info {
     color: #ffffff;
@@ -411,6 +481,13 @@
 
 .section > p {
     color: #333333;
+}
+
+.quick-links li {
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 15px;
+    margin-left: -15px;
 }
 
 .quick-links li a {
