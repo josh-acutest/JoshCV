@@ -7,7 +7,7 @@
     <title></title>
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Content/Style.css" rel="stylesheet" />
-    <script src="Scripts/toDo.js"></script>
+    <script src="Scripts/toDo2.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -24,6 +24,13 @@
                         <input id="taskInput" class="form-control" placeholder="insert task title" />
 
                         <a class="btn btn-danger" onclick="addItem()">Add Task</a>
+                        
+                    <hr />
+
+                        <label>Task</label>
+                        <input id="taskInput2" class="form-control" placeholder="insert task title" />
+
+                        <a class="btn btn-warning" onclick="temp()">Temp</a>
 
                     </div>
                 </div>
@@ -35,9 +42,9 @@
                     </div>
                     <div class="panel-body">
                         <p><strong>Task title:</strong></p>
-                        <ul id="outputResult">
+                        <ol id="outputResult">
 
-                        </ul>
+                        </ol>
                     </div>
                 </div>
             </div>
