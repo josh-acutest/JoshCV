@@ -210,6 +210,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\Script.js" />
+    <Content Include="Scripts\toDo.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
     <Content Include="Scripts\WebForms\GridView.js" />
@@ -237,6 +238,7 @@
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
     <Content Include="sitemap.xml" />
+    <Content Include="To-Do.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="packages.config" />
@@ -422,6 +424,13 @@
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="To-Do.aspx.cs">
+      <DependentUpon>To-Do.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="To-Do.aspx.designer.cs">
+      <DependentUpon>To-Do.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
