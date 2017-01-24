@@ -30,26 +30,36 @@ function temp() {
         }
     }
 
-        var newTask = document.getElementById("taskInput2").value;
+    var newTask = document.getElementById("taskInput2").value;
+
+    if (newTask != "") {
 
         arrTask.push(newTask);
 
-    for (i = 0; i < arrTask.length; i++) {
+        for (i = 0; i < arrTask.length; i++) {
 
-        //get the index/instance of the task
-        var task = arrTask[i];
-        //set index to a textnode
-        var taskNode = document.createTextNode(task);
+            //get the index/instance of the task
+            var task = arrTask[i];
+            //set index to a textnode
+            var taskNode = document.createTextNode(task);
 
-        //declare list and li
-        var list = document.getElementById("outputResult");
-        var listItem = document.createElement("li");
+            //declare list and li
+            var list = document.getElementById("outputResult");
+            var listItem = document.createElement("li");
 
-        //add the index to the li so, e.g. <li>Task 1</li> - [0]
-        listItem.appendChild(taskNode);
-        //add the li with index to the <ol>
-        list.appendChild(listItem);
+            listItem.className = "to-do-links";
+            //add the index to the li so, e.g. <li>Task 1</li> - [0]
+            listItem.appendChild(taskNode);
+            //add the li with index to the <ol>
+            list.appendChild(listItem);
 
+            listItem.onclick = function () {
+                this.parentNode.removeChild(this)
+            }
+        }
+    }
+    else {
+        alert("enter an input");
     }
 }
 
