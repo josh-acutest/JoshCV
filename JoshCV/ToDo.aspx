@@ -1,4 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="To-Do.aspx.cs" Inherits="JoshCV.To_Do" %>
+﻿<%@ Page Title="ToDo" Language="C#" AutoEventWireup="true" CodeBehind="ToDo.aspx.cs" Inherits="JoshCV.ToDo" %>
+
+
 
 <!DOCTYPE html>
 
@@ -56,3 +58,4 @@
     </form>
 </body>
 </html>
+    </asp:Content>

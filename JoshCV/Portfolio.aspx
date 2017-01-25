@@ -20,7 +20,7 @@
                             
                         </div>
                         <div class="panel-portfolio-info">
-                            <p>This website was built as a small 1 page website to sharpen my skills and 
+                            <p>This website was built as a small 1 page website to sharpen my skills and
                                 implement some new ideas I had.</p>
                         </div>
                         <div class="panel-portolio-btn-wrapper">

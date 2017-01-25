@@ -239,7 +239,7 @@
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
     <Content Include="sitemap.xml" />
-    <Content Include="To-Do.aspx" />
+    <Content Include="ToDo.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="packages.config" />
@@ -425,12 +425,12 @@
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
-    <Compile Include="To-Do.aspx.cs">
-      <DependentUpon>To-Do.aspx</DependentUpon>
+    <Compile Include="ToDo.aspx.cs">
+      <DependentUpon>ToDo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="To-Do.aspx.designer.cs">
-      <DependentUpon>To-Do.aspx</DependentUpon>
+    <Compile Include="ToDo.aspx.designer.cs">
+      <DependentUpon>ToDo.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -52,16 +52,18 @@ function temp() {
             listItem.appendChild(taskNode);
             //add the li with index to the <ol>
             list.appendChild(listItem);
-
+        }
+    
             listItem.onclick = function (e) {
                 var str = this.innerText;
                 var strIndx = arrTask.indexOf(str);
-                arrTask.splice(strIndx, 1);
-                temp();
-                               
+                alert(strIndx);
+                //arrTask.splice(strIndx, 1);
+
+               
             }
         }
-    }
+    
     else {
         alert("enter an input");
     }
