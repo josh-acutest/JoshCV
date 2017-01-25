@@ -53,8 +53,10 @@ function temp() {
             //add the li with index to the <ol>
             list.appendChild(listItem);
 
-            listItem.onclick = function () {
-                this.parentNode.removeChild(this)
+            listItem.onclick = function (e) {
+                var str = this.innerText;
+                alert(str);
+
             }
         }
     }
