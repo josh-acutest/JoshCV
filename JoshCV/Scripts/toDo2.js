@@ -55,8 +55,10 @@ function temp() {
 
             listItem.onclick = function (e) {
                 var str = this.innerText;
-                alert(str);
-
+                var strIndx = arrTask.indexOf(str);
+                arrTask.splice(strIndx, 1);
+                temp();
+                               
             }
         }
     }
