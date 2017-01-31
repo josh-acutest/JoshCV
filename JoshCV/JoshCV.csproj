@@ -212,6 +212,7 @@
     <Content Include="Scripts\Script.js" />
     <Content Include="Scripts\toDo.js" />
     <Content Include="Scripts\toDo2.js" />
+    <Content Include="Scripts\ToDo3.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
     <Content Include="Scripts\WebForms\GridView.js" />

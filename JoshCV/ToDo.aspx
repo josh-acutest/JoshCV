@@ -9,11 +9,11 @@
     <title></title>
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Content/Style.css" rel="stylesheet" />
-    <script src="Scripts/toDo2.js"></script>
+    <script src="Scripts/ToDo3.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div class="container">
+<%--    <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <div class="panel panel-primary">
@@ -54,7 +54,51 @@
         </div>
         
         
-    </div>
+    </div>--%>
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            Results:
+                        </div>
+                        <div class="panel-body">
+                            <ol id="inputResult">
+
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Input
+                        </div>
+                        <div class="panel-body">
+                            <label>ID</label>
+                            <input type="text" class="form-control" disabled="disabled" placeholder="ID"/>
+                            <p></p>
+                            <label>Title</label>
+                            <input id="_inputTitle" type="text" placeholder="Title" class="form-control" />
+                            <p></p>
+                            <label>Position</label>
+                            <input type="text" id="_inputPosition" placeholder="Position" class="form-control" />
+                            <p></p>
+                            <a class="btn btn-danger" onclick="addItem()">Submit</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </form>
 </body>
 </html>

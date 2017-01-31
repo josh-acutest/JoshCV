@@ -503,3 +503,7 @@ mar-t-30 {
     font-size: 16px;
     color: #0094ff;
 }
+
+.table-result td  {
+    padding: 15px;
+}
