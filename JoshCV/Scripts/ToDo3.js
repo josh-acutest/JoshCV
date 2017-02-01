@@ -6,6 +6,9 @@ function task(id) {
     this.title = function getTitle() {
         return document.getElementById("_inputTitle").value;
     };
+    this.push = function pushToArray() {
+        this.push(arrayTasks);
+    }
     //this.position = position;
 };
 
@@ -22,7 +25,9 @@ var taskTest5 = new task(5);
 var arrayTasks = [taskTest1, taskTest2, taskTest3, taskTest4, taskTest5];
 
 
-function addItem() {
+function loadData() {
+    
+    clearDom();
 
     var list = document.getElementById("inputResult");
 
@@ -30,6 +35,9 @@ function addItem() {
 
         var taskId = "the ID: " + arrayTasks[i].id;
         var taskTitle = arrayTasks[i].title();
+        
+        //NOT WORKING   task.pushToArray(taskTitle);
+        //Attempting to push new object to array
 
         var taskandID = taskId + " " + taskTitle;
 
@@ -40,4 +48,11 @@ function addItem() {
 
         list.appendChild(listItem);
     }
+}
+
+
+function clearDom() {
+
+    var list = document.getElementById("inputResult");
+    while (list.firstChild) list.removeChild(list.firstChild);
 }

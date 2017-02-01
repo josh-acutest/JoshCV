@@ -90,7 +90,7 @@
                             <label>Position</label>
                             <input type="text" id="_inputPosition" placeholder="Position" class="form-control" />
                             <p></p>
-                            <a class="btn btn-danger" onclick="addItem()">Submit</a>
+                            <a class="btn btn-danger" onclick="loadData()">Submit</a>
                             <a class="btn btn-warning" onclick="temp()">Temp</a>
 
                         </div>
