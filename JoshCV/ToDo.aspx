@@ -91,7 +91,7 @@
                             <input type="text" id="_inputPosition" placeholder="Position" class="form-control" />
                             <p></p>
                             <a class="btn btn-danger" onclick="loadData()">Submit</a>
-                            <a class="btn btn-warning" onclick="temp()">Temp</a>
+                            <a class="btn btn-warning" onclick="btnPress()">Temp</a>
 
                         </div>
                     </div>
