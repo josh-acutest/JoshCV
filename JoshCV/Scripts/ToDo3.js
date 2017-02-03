@@ -37,13 +37,9 @@ function loadData() {
         var listItem = document.createElement("li");
         listItem.appendChild(textNode);
         list.appendChild(listItem);
-
-        listITem(this).onclick = alert
-
-        
-        
+        //event added to items
+        listItem.onclick = removeItem;
     }
-
 }
 
 function clearDom() {
@@ -71,9 +67,9 @@ function btnPress() {
     loadData();
 }
 
-function removeItem() {
+function removeItem(e) {
+    console.log(e);
 
-    alert("yes working");
 
 }
 
