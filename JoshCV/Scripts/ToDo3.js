@@ -32,19 +32,18 @@ function loadData() {
         var taskId = "the ID: " + arrayTasks[i].id;
         var taskTitle = arrayTasks[i].title;
         
-        //NOT WORKING   task.pushToArray(taskTitle);
-        //Attempting to push new object to array
-
         var taskandID = taskId + " " + taskTitle;
-
         var textNode = document.createTextNode(taskandID);
-
         var listItem = document.createElement("li");
         listItem.appendChild(textNode);
-
         list.appendChild(listItem);
 
+        listITem(this).onclick = alert
+
+        
+        
     }
+
 }
 
 function clearDom() {
@@ -66,10 +65,18 @@ function addToArray() {
 }
 
 function btnPress() {
+
     addToArray();
 
     loadData();
 }
+
+function removeItem() {
+
+    alert("yes working");
+
+}
+
 
 //Next task to create remove function
 

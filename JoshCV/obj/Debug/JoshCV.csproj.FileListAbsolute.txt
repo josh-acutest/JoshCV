@@ -195,3 +195,4 @@ C:\Users\Josh\Documents\GitHub\JoshCV\JoshCV\bin\Microsoft.Owin.Security.Microso
 C:\Users\Josh\Documents\GitHub\JoshCV\JoshCV\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Josh\Documents\GitHub\JoshCV\JoshCV\obj\Debug\JoshCV.dll
 C:\Users\Josh\Documents\GitHub\JoshCV\JoshCV\obj\Debug\JoshCV.pdb
+C:\Users\Josh\Documents\GitHub\JoshCV\JoshCV\obj\Debug\JoshCV.csprojResolveAssemblyReference.cache
