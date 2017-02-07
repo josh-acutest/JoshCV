@@ -18,19 +18,28 @@ var taskTest5 = new task(5, "title 5");
 //create array with objects 
 var arrayTasks = [taskTest1, taskTest2, taskTest3, taskTest4, taskTest5];
 
+function validateInput() {
 
-
-function loadData() {
-   
     var inptVal = document.getElementById("_inputTitle").value;
 
-    if (inptVal != "") {
+    if (inptVal == "") {
+
+        return false;
+       
+    }
+    else {
+
+        return true;
+
+    }
+}
+
+function loadData() {
 
         clearDom();
 
         var list = document.getElementById("inputResult");
 
-        var dataAdd = 0;
 
         for (i = 0; i < arrayTasks.length; i++) {
 
@@ -41,42 +50,36 @@ function loadData() {
             var taskandID = taskId + " " + taskTitle;
             var textNode = document.createTextNode(taskandID);
             var listItem = document.createElement("li");
-           
-           
-            
-            // need to figure how to set attribute and append by 1 for each array item, then use this id to splice from array
-            //listItem.setAttribute();
-
 
             listItem.appendChild(textNode);
             list.appendChild(listItem);
             
-            console.log(listItem.attributes);
+            // ---
+            // need to figure how to set attribute and append by 1 for each array item, then use this id to splice from array
 
+            listItem.setAttribute("id", i);
+            
+            // ---
             //event added to items
             //access the parameters and attributes of a html element - li. by using e.target
             //this gets the e represents the item clicked, so li. then targets opens the attributes
 
-
             listItem.onclick = function (e) {
+                
+                alert(e.target.id);
 
-                console.log(e);
+                arrayTasks.splice(e.target.id, 1);
+
+                loadData();
 
                 //var liText = e.target.innerText;
                 //console.log(liText);
                 //var tryThis = arrayTasks.valueOf(liText);
-                //arrayTasks.splice(tryThis, 1);
+                //arrayTasks.splice(listItem.id, 1);
 
-                
 
-            }
         }
     }
-
-    else {
-        alert("enter a value");
-    }
-
 }
 
 function clearDom() {
@@ -99,20 +102,21 @@ function addToArray() {
 
 function btnPress() {
 
-    addToArray();
+    var isOk = validateInput();
 
-    loadData();
+    if (isOk == false) {
+        alert("enter a value");
+    }
+    else {
+        addToArray();
+        loadData();
+    }
 }
 
-function removeItem(e) {
-    console.log(e);
-
-
-}
 
 
 //Next task to create remove function
 
-// data set attribute
-
 //then edit function
+
+//re write once complete and focus on getting stable naming conventions
