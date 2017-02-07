@@ -7,6 +7,9 @@ function task(id, title) {
     //this.position = position;
 };
 
+var controlDiv = document.getElementById("controller-edit-panel");
+
+
 //create dummy objects/instances
 
 var taskTest1 = new task(1, "title 1");
@@ -17,6 +20,8 @@ var taskTest5 = new task(5, "title 5");
 
 //create array with objects 
 var arrayTasks = [taskTest1, taskTest2, taskTest3, taskTest4, taskTest5];
+
+var controlDiv = document.getElementById("controller-edit-panel");
 
 function validateInput() {
 
@@ -54,6 +59,15 @@ function loadData() {
             listItem.appendChild(textNode);
             list.appendChild(listItem);
             
+
+            listItem.onclick = function () {
+
+                var controlDiv = document.getElementById("controller-edit-panel");
+                controlDiv.style.visibility = "visible";
+
+            }
+
+
             // ---
             // need to figure how to set attribute and append by 1 for each array item, then use this id to splice from array
 
@@ -64,23 +78,16 @@ function loadData() {
             //access the parameters and attributes of a html element - li. by using e.target
             //this gets the e represents the item clicked, so li. then targets opens the attributes
 
-            listItem.onclick = function (e) {
+
+            
+            //listItem.onclick = function (e) {
                 
-                alert(e.target.id);
+            //arrayTasks.splice(e.target.id, 1);
 
-                arrayTasks.splice(e.target.id, 1);
-
-                loadData();
-
-                //var liText = e.target.innerText;
-                //console.log(liText);
-                //var tryThis = arrayTasks.valueOf(liText);
-                //arrayTasks.splice(listItem.id, 1);
-
+            //loadData();
 
         }
     }
-}
 
 function clearDom() {
 
@@ -110,8 +117,12 @@ function btnPress() {
     else {
         addToArray();
         loadData();
+
+
+
     }
 }
+
 
 
 

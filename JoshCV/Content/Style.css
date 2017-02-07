@@ -507,3 +507,7 @@ mar-t-30 {
 .table-result td  {
     padding: 15px;
 }
+
+#controller-edit-panel {
+    visibility: hidden;
+}

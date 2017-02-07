@@ -90,15 +90,33 @@
                             <label>Position</label>
                             <input type="text" id="_inputPosition" placeholder="Position" class="form-control" />
                             <p></p>
-                            <a class="btn btn-danger" onclick="loadData()">Submit</a>
                             <a class="btn btn-warning" onclick="btnPress()">Temp</a>
 
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
+            <div id="controller-edit-panel">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">
+                                Edit section
+                            </div>
+                            <div class="panel-body">
+                                <p>ID: <span id="idDisplay"> </span></p>
+                                <p>Title <span id="titleDisplay"> </span></p>
+                                
+                                <a class="btn btn-danger" onclick="btn()">Save</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
     </form>
 </body>
