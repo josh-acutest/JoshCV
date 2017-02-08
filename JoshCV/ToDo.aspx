@@ -105,8 +105,10 @@
                                 Edit section
                             </div>
                             <div class="panel-body">
-                                <p>ID: <span id="idDisplay"> </span></p>
-                                <p>Title <span id="titleDisplay"> </span></p>
+                                <label>ID</label>
+                                <input id="idDisplay" disabled="disabled" class="form-control" />
+                                <label>Title</label>
+                                <input id="titleDisplay" class="form-control" />
                                 
                                 <a class="btn btn-danger" onclick="btn()">Save</a>
 

@@ -60,39 +60,37 @@ function loadData() {
             list.appendChild(listItem);
             
 
+            // ! need to set text attribute and use to retrieve title
+            listItem.setAttribute("id", i);
+            listItem.setAttribute("texttitle", taskTitle);
+
+
             listItem.onclick = function (e) {
 
                 //show div
                 var controlDiv = document.getElementById("controller-edit-panel");
                 controlDiv.style.visibility = "visible";
                 // get id
-                var idNew = document.getElementById("idDisplay");
+                //var idNew = document.getElementById("idDisplay");
                 var idOfItem = e.target.id;
+                
+                //find just title of the li, without the id text
+                console.log(e);
+                alert(e.target.texttitle);
 
-               var nodeTest = document.createTextNode(idOfItem);
+                var titleOfItem = e.target.title;
 
-                idNew.appendChild(nodeTest);
+                document.getElementById("idDisplay").value = idOfItem;
+
+
+
+                //idNew.innerHTML(idOfItem);
+                //var nodeTest = document.createTextNode(idOfItem);
+                //idNew.appendChild(nodeTest);
 
             }
 
-            // ---
-            // need to figure how to set attribute and append by 1 for each array item, then use this id to splice from array
-
-            listItem.setAttribute("id", i);
             
-            // ---
-            //event added to items
-            //access the parameters and attributes of a html element - li. by using e.target
-            //this gets the e represents the item clicked, so li. then targets opens the attributes
-
-
-            
-            //listItem.onclick = function (e) {
-                
-            //arrayTasks.splice(e.target.id, 1);
-
-            //loadData();
-
         }
     }
 
