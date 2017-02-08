@@ -60,13 +60,20 @@ function loadData() {
             list.appendChild(listItem);
             
 
-            listItem.onclick = function () {
+            listItem.onclick = function (e) {
 
+                //show div
                 var controlDiv = document.getElementById("controller-edit-panel");
                 controlDiv.style.visibility = "visible";
+                // get id
+                var idNew = document.getElementById("idDisplay");
+                var idOfItem = e.target.id;
+
+               var nodeTest = document.createTextNode(idOfItem);
+
+                idNew.appendChild(nodeTest);
 
             }
-
 
             // ---
             // need to figure how to set attribute and append by 1 for each array item, then use this id to splice from array
@@ -90,7 +97,6 @@ function loadData() {
     }
 
 function clearDom() {
-
     var list = document.getElementById("inputResult");
     while (list.firstChild) list.removeChild(list.firstChild);
 }
@@ -117,9 +123,6 @@ function btnPress() {
     else {
         addToArray();
         loadData();
-
-
-
     }
 }
 
