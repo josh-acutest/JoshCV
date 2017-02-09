@@ -44,7 +44,7 @@ function loadData() {
         clearDom();
 
         var list = document.getElementById("inputResult");
-
+        
 
         for (i = 0; i < arrayTasks.length; i++) {
 
@@ -52,47 +52,50 @@ function loadData() {
             var taskId = "the ID: " + arrayTasks[i].id;
             var taskTitle = arrayTasks[i].title;
 
-            var taskandID = taskId + " " + taskTitle;
+            var taskandID = taskId + " " + taskTitle + " ";
             var textNode = document.createTextNode(taskandID);
+
+            // btn edit - new
+            var btnEdit = document.createElement('a');
+            var btnEditText = document.createTextNode("edit");
+            btnEdit.appendChild(btnEditText);
+            btnEdit.href = "#";
+
             var listItem = document.createElement("li");
 
             listItem.appendChild(textNode);
+            listItem.appendChild(btnEdit);
             list.appendChild(listItem);
+
             
 
             // ! need to set text attribute and use to retrieve title
             listItem.setAttribute("id", i);
-            listItem.setAttribute("texttitle", taskTitle);
+            listItem.setAttribute("data-title", taskTitle);
 
-
-            listItem.onclick = function (e) {
-
-                //show div
-                var controlDiv = document.getElementById("controller-edit-panel");
-                controlDiv.style.visibility = "visible";
-                // get id
-                //var idNew = document.getElementById("idDisplay");
-                var idOfItem = e.target.id;
-                
-                //find just title of the li, without the id text
-                console.log(e);
-                alert(e.target.texttitle);
-
-                var titleOfItem = e.target.title;
-
-                document.getElementById("idDisplay").value = idOfItem;
-
-
-
-                //idNew.innerHTML(idOfItem);
-                //var nodeTest = document.createTextNode(idOfItem);
-                //idNew.appendChild(nodeTest);
-
-            }
-
+            //setAttribute("data-title", taskTitle);
             
+            listItem.onclick = getEditData; // new
+
         }
     }
+
+
+function getEditData(e) {
+
+    //show div
+    var controlDiv = document.getElementById("controller-edit-panel");
+    controlDiv.style.visibility = "visible";
+
+    // get id
+    var idOfItem = e.target.id;
+    var titleOfItem = e.target.dataset.title;
+
+    document.getElementById("idDisplay").value = idOfItem;
+    document.getElementById("titleDisplay").value = titleOfItem;
+
+}
+
 
 function clearDom() {
     var list = document.getElementById("inputResult");

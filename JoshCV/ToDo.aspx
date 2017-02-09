@@ -56,7 +56,7 @@
         
     </div>--%>
 
-
+        
 
         <div class="container">
             <div class="row">
@@ -91,7 +91,6 @@
                             <input type="text" id="_inputPosition" placeholder="Position" class="form-control" />
                             <p></p>
                             <a class="btn btn-warning" onclick="btnPress()">Temp</a>
-
                         </div>
                     </div>
                 </div>
