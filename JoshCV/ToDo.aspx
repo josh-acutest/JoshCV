@@ -109,7 +109,7 @@
                                 <label>Title</label>
                                 <input id="titleDisplay" class="form-control" />
                                 
-                                <a class="btn btn-danger" onclick="btn()">Save</a>
+                                <a class="btn btn-danger" onclick="saveNewData()">Save</a>
 
                             </div>
                         </div>

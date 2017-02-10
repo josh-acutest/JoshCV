@@ -49,11 +49,10 @@ function loadData() {
         for (i = 0; i < arrayTasks.length; i++) {
 
             //get id of instance
-            var taskId = "the ID: " + arrayTasks[i].id;
-            var taskTitle = arrayTasks[i].title;
+            var taskId = arrayTasks[i].id;
+            var taskTitle = arrayTasks[i].title + " ";
 
-            var taskandID = taskId + " " + taskTitle + " ";
-            var textNode = document.createTextNode(taskandID);
+            var textNode = document.createTextNode(taskTitle);
 
             // btn edit - new
             var btnEdit = document.createElement('a');
@@ -66,16 +65,14 @@ function loadData() {
             listItem.appendChild(textNode);
             listItem.appendChild(btnEdit);
             list.appendChild(listItem);
-
             
-
             // ! need to set text attribute and use to retrieve title
             listItem.setAttribute("id", i);
             listItem.setAttribute("data-title", taskTitle);
 
             //setAttribute("data-title", taskTitle);
             
-            listItem.onclick = getEditData; // new
+            btnEdit.onclick = getEditData; // new
 
         }
     }
@@ -88,14 +85,31 @@ function getEditData(e) {
     controlDiv.style.visibility = "visible";
 
     // get id
-    var idOfItem = e.target.id;
-    var titleOfItem = e.target.dataset.title;
+    var idOfItem = e.target.parentElement.id;
+    var titleOfItem = e.target.parentElement.dataset.title;
 
     document.getElementById("idDisplay").value = idOfItem;
     document.getElementById("titleDisplay").value = titleOfItem;
 
 }
 
+function saveNewData() {
+
+    var idNumber = document.getElementById("idDisplay").value;
+    var newTitle = document.getElementById("titleDisplay").value;
+
+    arrayTasks.
+
+    var tester = task(3);
+
+    alert(tester);
+    
+
+    //tester.title = newTitle;
+
+    loadData();
+
+}
 
 function clearDom() {
     var list = document.getElementById("inputResult");
