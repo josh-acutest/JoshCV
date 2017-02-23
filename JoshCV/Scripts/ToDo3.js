@@ -110,6 +110,8 @@ function saveNewData() {
 
     testalert.title = newTitle;
 
+    alert(newTitle);
+
     //for (var i = 0; i < arrayTasks.length; i++) {
     //    var task = arrayTasks[i];
 
@@ -158,8 +160,16 @@ function btnPress() {
 
 //Use ASP textbox and static id, send to the server and post back to DOM using C#
 
-//Next task to create remove function
 
-//then edit function
+//Working with AJAX and JSON
+var xhr = new XMLHttpRequest();
+xhr.open('GET', 'testJson.json', true);
+xhr.send("test");
+
+xhr.onload = function () {
+    if (xhr.status === 200) {
+        alert(JSON.parse("string test");
+    }
+}
 
 //re write once complete and focus on getting stable naming conventions

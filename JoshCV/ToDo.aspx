@@ -82,13 +82,13 @@
                         </div>
                         <div class="panel-body">
                             <label>ID</label>
-                            <input type="text" class="form-control" disabled="disabled" placeholder="ID"/>
+                            <asp:TextBox runat="server" cssClass="form-control" enabled="false" text="ID" ClientIDMode="Static"></asp:TextBox>
                             <p></p>
                             <label>Title</label>
-                            <input id="_inputTitle" type="text" placeholder="Title" class="form-control" />
+                            <asp:TextBox runat="server" id="_inputTitle" cssClass="form-control" ClientIDMode="Static"></asp:TextBox>
                             <p></p>
                             <label>Position</label>
-                            <input type="text" id="_inputPosition" placeholder="Position" class="form-control" />
+                            <asp:TextBox runat="server" id="_inputPosition" cssClass="form-control" ClientIDMode="Static"></asp:TextBox>
                             <p></p>
                             <a class="btn btn-warning" onclick="btnPress()">Temp</a>
                         </div>
@@ -118,6 +118,14 @@
                 </div>
 
             </div>
+
+            <label>Enter value to submit to server</label>
+            <asp:TextBox ID="jsonTestData" CssClass="form-control" ClientIDMode="Static" runat="server"></asp:TextBox>
+
+            <a class="btn btn-info" id="btn_SendJsonData">Submit</a>
+
+            <p>Result: <span id="postJson"></span></p>
+
         </div>
 
     </form>
