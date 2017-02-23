@@ -67,7 +67,7 @@ function loadData() {
             list.appendChild(listItem);
             
             // ! need to set text attribute and use to retrieve title
-            listItem.setAttribute("id", i);
+            listItem.setAttribute("id", taskId);
             listItem.setAttribute("data-title", taskTitle);
 
             //setAttribute("data-title", taskTitle);
@@ -98,12 +98,26 @@ function saveNewData() {
     var idNumber = document.getElementById("idDisplay").value;
     var newTitle = document.getElementById("titleDisplay").value;
 
-    arrayTasks.
+    //arrayTasks.
 
-    var tester = task(3);
+    //var tester = task(3);
 
-    alert(tester);
-    
+    var testalert = arrayTasks.find(function (task) {
+        if (task.id == idNumber) {
+            return task;
+        }
+    });
+
+    testalert.title = newTitle;
+
+    //for (var i = 0; i < arrayTasks.length; i++) {
+    //    var task = arrayTasks[i];
+
+    //    if (task.id == idNumber) {
+    //        return task;
+    //    }
+    //}
+
 
     //tester.title = newTitle;
 
@@ -142,7 +156,7 @@ function btnPress() {
 }
 
 
-
+//Use ASP textbox and static id, send to the server and post back to DOM using C#
 
 //Next task to create remove function
 

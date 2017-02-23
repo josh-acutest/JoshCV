@@ -105,6 +105,7 @@
                             </div>
                             <div class="panel-body">
                                 <label>ID</label>
+                                
                                 <input id="idDisplay" disabled="disabled" class="form-control" />
                                 <label>Title</label>
                                 <input id="titleDisplay" class="form-control" />
