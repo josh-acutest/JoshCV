@@ -9,7 +9,7 @@
     <title></title>
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Content/Style.css" rel="stylesheet" />
-    <script src="Scripts/ToDo3.js"></script>
+    
 </head>
 <body>
     <form id="form1" runat="server">
@@ -127,8 +127,9 @@
             <p>Result: <span id="postJson"></span></p>
 
         </div>
+        <script src="Scripts/ToDo3.js"></script>
+                
 
     </form>
 </body>
 </html>
-    </asp:Content>

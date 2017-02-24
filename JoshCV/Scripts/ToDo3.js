@@ -77,7 +77,6 @@ function loadData() {
         }
     }
 
-
 function getEditData(e) {
 
     //show div
@@ -162,14 +161,50 @@ function btnPress() {
 
 
 //Working with AJAX and JSON
-var xhr = new XMLHttpRequest();
-xhr.open('GET', 'testJson.json', true);
-xhr.send("test");
+//var xhr = new XMLHttpRequest();
+//xhr.open('GET', 'testJson.json', true);
+//xhr.send("test");
 
-xhr.onload = function () {
-    if (xhr.status === 200) {
-        alert(JSON.parse("string test");
-    }
+var person = {
+    firstName:"John",
+    lastName:"Doe",
+    age:50,
+    eyeColor: "blue",
+    enabled: "true"
+};
+
+
+// call ajax 
+data: JSON.stringify(person)
+// send 
+
+var myJson = JSON.stringify(person);
+
+document.getElementById("postJson").innerText = myJson;
+
+var parsedJS = JSON.parse('{ "firstName": "Piotr", "lastName": "Doe", "age": 33, "eyeColor": "blue", "enabled": true }');
+
+console.log(parsedJS);
+
+alert(parsedJS.enabled);
+
+fucntion click(){
+
+    ajax({
+        url: 'ToDo.aspx/PersonSubmit',
+        type: 'POST',
+        data: JSON.stringify(person),
+        succcess: function(data){
+            alert(data.d.age);
+        }
+    })
+
 }
+
+//xhr.onload = function () {
+//    if (xhr.status === 200) {
+//        alert(JSON.parse();
+//    }
+//}
 
 //re write once complete and focus on getting stable naming conventions
