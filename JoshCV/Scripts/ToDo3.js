@@ -175,7 +175,7 @@ var person = {
 
 
 // call ajax 
-data: JSON.stringify(person)
+//data: JSON.stringify(person)
 // send 
 
 var myJson = JSON.stringify(person);
@@ -186,20 +186,25 @@ var parsedJS = JSON.parse('{ "firstName": "Piotr", "lastName": "Doe", "age": 33,
 
 console.log(parsedJS);
 
-alert(parsedJS.enabled);
+alert(parsedJS);
 
-fucntion click(){
 
-    ajax({
-        url: 'ToDo.aspx/PersonSubmit',
-        type: 'POST',
-        data: JSON.stringify(person),
-        succcess: function(data){
-            alert(data.d.age);
-        }
-    })
 
-}
+
+
+
+//fucntion click(){
+
+//    ajax({
+//        url: 'ToDo.aspx/PersonSubmit',
+//        type: 'POST',
+//        data: JSON.stringify(person),
+//        succcess: function(data){
+//            alert(data.d.age);
+//        }
+//    })
+
+//}
 
 //xhr.onload = function () {
 //    if (xhr.status === 200) {

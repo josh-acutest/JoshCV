@@ -20,7 +20,7 @@ namespace JoshCV
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string dataExample = "{ \"firstName\": \"Piotr\", \"lastName\": \"Doe\", \"age\": 33, \"eyeColor\": \"blue\", \"enabled\": true }";
+            //string dataExample = "{ \"firstName\": \"Piotr\", \"lastName\": \"Doe\", \"age\": 33, \"eyeColor\": \"blue\", \"enabled\": true }";
 
             // Json
             
