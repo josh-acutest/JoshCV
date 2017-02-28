@@ -173,6 +173,7 @@
     <Content Include="app\Modal.aspx" />
     <Content Include="Box.aspx" />
     <Content Include="Box2.aspx" />
+    <Content Include="cashReg.aspx" />
     <Content Include="googlef57dbc97f1c543fc.html" />
     <Content Include="Images\bg-test1.png" />
     <Content Include="Images\bg-test2.png" />
@@ -202,6 +203,7 @@
     <Content Include="Images\in_50px.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\cashReg.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
@@ -392,6 +394,13 @@
     </Compile>
     <Compile Include="Box2.aspx.designer.cs">
       <DependentUpon>Box2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cashReg.aspx.cs">
+      <DependentUpon>cashReg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cashReg.aspx.designer.cs">
+      <DependentUpon>cashReg.aspx</DependentUpon>
     </Compile>
     <Compile Include="JSlearn.aspx.cs">
       <DependentUpon>JSlearn.aspx</DependentUpon>
