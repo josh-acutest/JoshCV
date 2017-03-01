@@ -39,7 +39,7 @@
                             <ul id="basketItems">
 
                             </ul> 
-                            <p id="totalValue"></p>
+                            <p>Basket <b>Total £<span id="totalValue"></span></b></p>
                         </div>
                     </div>
                 </div>
@@ -47,6 +47,7 @@
         </div>
     
     </div>
+
     </form>
 
     <script src="Scripts/cashReg.js"></script>

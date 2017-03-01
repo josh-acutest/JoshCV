@@ -140,7 +140,6 @@ function addToArray() {
     var newTask = new task(idTest, str);
 
     arrayTasks.push(newTask);
-
 }
 
 function btnPress() {
