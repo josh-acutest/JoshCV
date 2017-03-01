@@ -39,6 +39,7 @@
                             <ul id="basketItems">
 
                             </ul> 
+                            <p id="totalValue"></p>
                         </div>
                     </div>
                 </div>

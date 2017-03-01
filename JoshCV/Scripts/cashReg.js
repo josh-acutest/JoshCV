@@ -1,7 +1,7 @@
 ﻿
 function product(name, price) {
-    this.name = name;
-    this.price = price;
+    this.Name = name;
+    this.Price = price;
 }
 
 var arrProducts = new Array();
@@ -20,6 +20,7 @@ function btnAddPrice() {
     }
     else {
         createObject();
+        populateBasket();
     }
 }
 
@@ -42,17 +43,35 @@ function createObject() {
 
     arrProducts.push(newProduct);
 
-    alert(arrProducts.length);
-
+    
 }
 
 function populateBasket() {
-    
-    for (i = 0; i < arrayTasks.length; i++) {
+
+    clearDom();
+
+    var total = 0;
+
+    var totalValue = document.getElementById("totalValue");
+
+    for (i = 0; i < arrProducts.length; i++) {
 
         var listItem = document.createElement("li");
-        
+        var listItemName = document.createTextNode(arrProducts[i].Name + " ");
+        var listItemPrice = document.createTextNode(arrProducts[i].Price);
+
+        var listItemPriceInt = arrProducts[i].Price;
+
+        listItem.appendChild(listItemName);
+        listItem.appendChild(listItemPrice);
+        basket.appendChild(listItem);
+
+        total += parseFloat(listItemPriceInt);
 
     }
+    totalValue.innerText = total;
+}
 
+function clearDom() {
+    while (basket.firstChild) basket.removeChild(basket.firstChild);
 }
