@@ -41,6 +41,7 @@ function createObject() {
     useId = idCounter += 1;
 
     var productId = useId;
+
     var productName = document.getElementById("inputProductName").value;
     var productPrice = document.getElementById("inputPrice").value;
 
@@ -93,15 +94,34 @@ function removeProduct(e) {
 
     var elemId = e.target.parentElement.id;
 
-    var objectInList = arrProducts.find(function (product) {
-        if (elemId == product.Id) {
-            return product;
-        }
+    arrProducts = arrProducts.filter(function (product) {
+        return product.Id != elemId;
     });
 
-    arrProducts.splice(objectInList, 1);
-    
-    populateBasket();
+
+   populateBasket();
+
+
+    //var objectInList = arrProducts.find(function (product) {
+
+    //    objectInList.id
+
+    //    return -1;
+
+    //    if (parseInt(elemId) == parseInt(product.Id)) {
+    //        console.log(index);
+    //        return ;
+    //    }
+    //    else {
+    //        return -1;
+    //    }
+    //});
+
+    //console.log(objectInList);
+
+    //arrProducts.splice(objectInList, 1);
+
+ 
 
 
     //alert(e.target.parentElement);
