@@ -173,6 +173,7 @@
     <Content Include="app\Modal.aspx" />
     <Content Include="Box.aspx" />
     <Content Include="Box2.aspx" />
+    <Content Include="CarGame.aspx" />
     <Content Include="cashReg.aspx" />
     <Content Include="googlef57dbc97f1c543fc.html" />
     <Content Include="Images\bg-test1.png" />
@@ -203,6 +204,7 @@
     <Content Include="Images\in_50px.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\CarGame.js" />
     <Content Include="Scripts\cashReg.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -395,6 +397,13 @@
     <Compile Include="Box2.aspx.designer.cs">
       <DependentUpon>Box2.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CarGame.aspx.cs">
+      <DependentUpon>CarGame.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CarGame.aspx.designer.cs">
+      <DependentUpon>CarGame.aspx</DependentUpon>
+    </Compile>
     <Compile Include="cashReg.aspx.cs">
       <DependentUpon>cashReg.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -438,7 +447,6 @@
     <Compile Include="Startup.cs" />
     <Compile Include="ToDo.aspx.cs">
       <DependentUpon>ToDo.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ToDo.aspx.designer.cs">
       <DependentUpon>ToDo.aspx</DependentUpon>
